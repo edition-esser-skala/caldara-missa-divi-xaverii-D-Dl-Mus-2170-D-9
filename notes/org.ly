@@ -359,3 +359,112 @@ DomineFiliBassFigures = \figuremode {
   r %165
   r %166 finis
 }
+
+DomineAgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/8 \tempoDomineAgnus
+      \set Score.currentBarNumber = #167
+    \mvTr g4\fE-\soloE ^\tweak TextScript.X-offset #0 ^\markup \remark "Organo con Violoncello" g' fis
+    g4. h,8 c4
+    d r8 d4 r8
+    h4 r8 c4 r8 %170
+    c4 r8 d4 r8
+    g,4 r8 g4 r8
+    a4 r8 h4 r8
+    c h a g d' d,
+    g4 g'\pE fis %175
+    g g,8 h c4
+    d h8 c4 r8
+    c4 r8 d4 r8
+    d4 r8 e4 r8
+    c4 r8 g'4 r8 %180
+    c,4 r8 g'4 r8
+    a4 g8 fis16 g a8 a,
+    d4 r8 h4 r8
+    c!4 r8 g4 r8
+    e'4 r8 fis4 r8 %185
+    g4 r8 g,4 r8
+    a4 r8 h4 r8
+    c4 r8 a4 r8
+    h4 r8 c4 r8
+    c4 r8 d4 r8 %190
+    d4 r8 e4 r8
+    f16 d e8 e, a4 a'8~
+    a gis4 a c,8
+    d e e, a4 r8
+    h4 r8 c4 c'8~ %195
+    c h4 c h8
+    a e fis! g4 r8
+    e fis4 g r8
+    c,4 r8 c4 r8
+    d4 r8 g,4 r8 %200
+    g4 r8 c4 r8
+    c4 r8 c4 r8
+    d4 r8 g, d' d,
+    g4 r8 c4 r8
+    c4 r8 c4 r8 %205
+    d4 r8 g, d' d,
+    g4\fE g' fis
+    g r8 h, c4
+    d r8 d4 r8
+    h4 r8 c4 r8 %210
+    d4 r8 g,4 r8
+    g4 r8 a4 r8
+    h4 r8 c4 r8
+    g d' d, g4 r8
+    g4 r8 r4 r8\fermata \bar "||" %215 finis
+  }
+}
+
+DomineAgnusBassFigures = \figuremode {
+  r4. <2>8 <[6]>4 %167
+  r4. <[6]>
+  r2.
+  <[6]>4. <5> %170
+  <6> <7>
+  r2.
+  <6!>4. <5!>
+  r4 <5>16 <6\\> r4.
+  r <2>8 <[6]>4 %175
+  r4. <[6]>
+  r4 <6>8 r4.
+  <6> <5>
+  <6>2.
+  r %180
+  r
+  \bo <[_+]>4 <\t>8 <6>16 q \bc <[_+]>4
+  r4. <[6]>
+  r2.
+  <7>8 <6>4 <5>4. %185
+  <4>4 <3>8 r4.
+  <6!> <5!>
+  r <7>8 <6!>4
+  <6 5!>4. <4!>4 <3>8
+  <6>4. <5 [_!]> %190
+  <6 [_!]> \bo <[_+]>
+  r8 <_+>4 r4.
+  <2>8 \bc <[6]>4 r <6>8
+  <6 _!> <_+>4 r4.
+  \bc <[6!]>2. %195
+  \bo <[4!] 2>8 <6>4 r <6>8
+  r \bc <[6]>4 r4.
+  <6>8 q <5> r4.
+  <5> <6>
+  r2. %200
+  r
+  r4. <6>
+  r2.
+  r
+  r %205
+  r
+  r4. <2>8 <[6]>4
+  r4. <[6]>
+  r2.
+  <[6]> %210
+  <[7]>
+  r4. <[6!]>
+  <5!>2.
+  r2.
+  r %215 finis
+}
