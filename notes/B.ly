@@ -45,3 +45,87 @@ GloriaBassoLyrics = \lyricmode {
   tu --
   am. %43 finis
 }
+
+DomineDeusBasso = {
+  \relative c {
+    \clef bass
+    \key a \minor \time 4/4 \autoBeamOff \tempoDomineDeus
+      \set Score.currentBarNumber = #45
+    R1*8 %52
+    \mvTr a'8\pE^\soloE h16 a a8 h16 a gis8 fis gis e
+    a4 a, r2
+    R1*5 %59
+    r2 a'8 h16 a a8 h16 a %60
+    gis8 fis gis e a4 a,
+    r2 r4 a'8 a
+    h2~ h16[ c a c] h[ c g h]
+    a2~ a16[ h g h] g[ h f a]
+    g2~ g16[ a f a] g[ a e g] %65
+    f2. e8. f16
+    g4. g8 c,4 r
+    R1*3 %70
+    r2 f8([ a16 g] f[ g e f]
+    d8.) d16 d4 e e
+    R1
+    a8 g! f e f4 fis8.([ e32 fis)]
+    g16[ h a h] d,[ g f g] e4 e %75
+    r f8 f g2\trill
+    a\trill h\trill
+    c4 cis8.([\trill h32 cis)] d4 f,8. g16
+    a4. a8 d,4 r
+    R1*2 %81
+    a'8 h16 a a8 h16 a a4 gis
+    c8 d c h16([ a)] a4 gis
+    r c8 c d16[ c d e] d[ e d c]
+    h[ a h c] h[ c a h] c[ h c d] c[ d h c] %85
+    a[ gis a h] a[ h gis a] h[ a h c] h[ c h a]
+    gis8[ e] a d, e4. e8
+    a,4 r r2
+    r2 f'8 f g4
+    r16 a[ g a] f4 r16 g[ f g] e4 %90
+    r16 f[ e f] d8[ f] e16[ e fis gis] a[ h c d]
+    e2~\trill e16[ e d c] h[ a gis fis]
+    e4 f8 d e4. e8
+    a,4 r r2
+    R1*7 %101
+    R1\fermata \bar "||" %102 finis
+  }
+}
+
+DomineDeusBassoLyrics = \lyricmode {
+  Do -- mi -- ne, Do -- mi -- ne De -- us, Rex coe -- %53
+  le -- stis,
+
+  Do -- mi -- ne, Do -- mi -- ne %60
+  De -- us, Rex coe -- le -- stis,
+  De -- us
+  Pa -- _
+  _ _
+  _ _ %65
+  _ ter o --
+  mni -- po -- tens.
+
+  Do -- %71
+  mi -- ne De -- us,
+
+  De -- us, Rex coe -- le -- _
+  _ _ _ stis, %75
+  De -- us Pa --
+  _ _
+  _ _ _ ter o --
+  mni -- po -- tens.
+
+  Do -- mi -- ne, Do -- mi -- ne De -- us, %82
+  De -- us, Rex coe -- le -- stis,
+  De -- us Pa -- _
+  _ _ _ _ %85
+  _ _ _ _
+  _ ter o -- mni -- po --
+  tens,
+  De -- us Pa --
+  _ _ _ _ %90
+  _ _ _ _
+  _ _
+  _ ter o -- mni -- po --
+  tens. %94 finis
+}

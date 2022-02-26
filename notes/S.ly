@@ -93,8 +93,94 @@ GloriaSopranoLyrics = \lyricmode {
   am. %43 finis
 }
 
-% Do -- mi -- ne De -- us, Rex coe -- le -- stis,
-% De -- us Pa -- ter o -- mni -- po -- tens,
+DomineDeusSoprano = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 4/4 \autoBeamOff \tempoDomineDeus
+      \set Score.currentBarNumber = #45
+    R1*7 %51
+    r2 \mvTr e'8\pE^\soloE f16 e e8 f16 e
+    e8 a, r4 e'8 f e d
+    c8.([ h16)] a4 r2
+    R1*5 %59
+    e'8 f16 e e8 f16 e e8 a, r4 %60
+    e'8 f e d c8.([ h16)] a4
+    r e'8 e f2~
+    f16[ g e g] f[ g d f] e2~
+    e16[ f d f] e[ f c e] d2~
+    d16[ e c e] d[ e h d] c2~ %65
+    c16[ d h d] c[ d a c] h8[ a16 g] c8. d16
+    c4( h8.) c16 c4 r
+    R1*3 %70
+    c8([ e16 d] c[ d h c] a8.) a16 a4
+    d8([ f16 e]) d([ c)] h([ a)] gis8.([ fis?16)] e4
+    r2 e'8 d c h
+    c4 cis8.([\trill h32 cis)] d16[ f e f] a,[ d c? d]
+    h4 h r g8 g %75
+    a[ f] a[ d16 c] h8[ g] h[ e16 d]
+    c8[ a] c[ f16 e] d8[ h] d[ g16 f]
+    e8[ c] e[ a16 g] f8.[ e16] d8. e16
+    d4( cis8.) d16 d4 r
+    R1 %80
+    r2 e8 f16 e e8 f16 e
+    e8 a, r4 r2
+    e'8 f e d16([ c)] c4 h
+    r e8 e f16[ e f g] f[ g f e]
+    d[ c d e] d[ e c d] e[ d e f] e[ f d e] %85
+    c[ h c d] c[ d h c] d[ c d e] d[ e d c]
+    h4 c8. d16 c4( h8.) a16
+    a4 r r2
+    r4 c8 c d4 r16 e[ d e]
+    c4 r16 d[ c d] h4 r16 c[ h c] %90
+    a4 r16 h[ a h] gis2~\trill
+    gis16[ e fis gis] a[ h c d] e2~\trill
+    e4 d8. c16 c4( h8.) a16
+    a4 r r2
+    R1*7 %101
+    R1\fermata \bar "||" %102 finis
+  }
+}
+
+DomineDeusSopranoLyrics = \lyricmode {
+  Do -- mi -- ne, Do -- mi -- ne %52
+  De -- us, De -- us, Rex coe --
+  le -- stis,
+
+  Do -- mi -- ne, Do -- mi -- ne De -- us, %60
+  De -- us, Rex coe -- le -- stis,
+  De -- us Pa --
+  _ _
+  _ _
+  _ _ %65
+  _ _ ter o --
+  mni -- po -- tens.
+
+  Do -- mi -- ne, %71
+  Do -- mi -- ne De -- us,
+  De -- us, Rex coe --
+  le -- _ _ _
+  _ stis, De -- us %75
+  Pa -- _ _ _
+  _ _ _ _
+  _ _ _ ter o --
+  mni -- po -- tens.
+  %80
+  Do -- mi -- ne, Do -- mi -- ne
+  De -- us,
+  De -- us, Rex coe -- le -- stis,
+  De -- us Pa -- _
+  _ _ _ _ %85
+  _ _ _ _
+  _ ter o -- mni -- po --
+  tens,
+  De -- us Pa -- _
+  _ _ _ _ %90
+  _ _ _
+  _ _
+  ter o -- mni -- po --
+  tens. %94 finis
+}
+
 % Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
 % Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
 % Qui tol -- lis pec -- ca -- ta mun -- di:
