@@ -1,0 +1,19 @@
+composer:
+  last: Caldara
+  first: Antonio
+title: Missa Divi Xaverii
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), clno (C), 2 vl, 2 vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2170-D-9
+    date: 1727
+    rism: 212006718
+    url: https://digital.slub-dresden.de/id425832821
+    license: public domain
+    principal: true
+imslp:
+parts:
+  clno12: Clarino I, II in C/F
