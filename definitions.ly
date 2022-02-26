@@ -7,6 +7,7 @@
 
 
 tempoGloria = \tempoMarkup "Allegro"
+  tempoGratias = \tempoMarkup "Adagio"
 
 
 \include "notes/clno.ly"
