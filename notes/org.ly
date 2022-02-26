@@ -220,3 +220,142 @@ DomineDeusBassFigures = \figuremode {
   <6 [4]>4 <5 _+>2 <_+>4
   r1 %102 finis
 }
+
+DomineFiliOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoDomineFili
+      \set Score.currentBarNumber = #103
+    \mvTr c2\fE-\soloE h4
+    c2 r4
+    h2 r4 %105
+    c2 r4
+    f2 r4
+    f2 r4
+    h,2 r4
+    c2 r4 %110
+    e8 f g4 g,
+    c2\pE h4
+    c2.
+    h
+    c %115
+    c
+    d8 e d c h a
+    g c d4 d,
+    g2 r4
+    c2 r4 %120
+    c2 r4
+    f2 r4
+    g2 r4
+    e2\fE r4
+    d g g, %125
+    c2\pE r4
+    d2 g4
+    c,2 r4
+    d2 r4
+    gis,2 r4 %130
+    a2 r4
+    d2 r4
+    c gis2
+    a4 e' e,
+    a'2 r4 %135
+    f2 r4
+    g2 r4
+    c2 r4
+    f,2 r4
+    f2 r4 %140
+    d2 r4
+    h2 r4
+    c2 r4
+    c2 r4
+    e2 r4 %145
+    f2 r4
+    c2 r4
+    c2 h4
+    c8 f g4 g,
+    c2 r4 %150
+    f2 r4
+    c2 r4
+    f2 r4
+    c2 r4
+    c2 r4 %155
+    c8 f g4 g,
+    c'8\fE d c d c d
+    h c h c h c
+    a h a h a h
+    c2 r4 %160
+    f,2 r4
+    g a h
+    c8 f, g4 g,
+    c8 d e f g g,
+    c d e f g g, %165
+    c2.\fermata \bar "||" %166 finins
+  }
+}
+
+DomineFiliBassFigures = \figuremode {
+  r2 <6>4 %103
+  r2.
+  <6> %105
+  r
+  <5>
+  <6>
+  <[6]>
+  r %110
+  <[6]>
+  r2 <[6]>4
+  r2.
+  <[6]>
+  r %115
+  <6>
+  <_+>
+  r8 \bo <[6]> \bc <[_+]>2
+  r2.
+  r %120
+  r
+  r
+  r
+  <[6]>
+  r4 <[7]>2 %125
+  r2.
+  r
+  r
+  r
+  <6> %130
+  r
+  r
+  r4 \bo <[6]>2
+  r4 \bc <[_+]>2
+  r2. %135
+  r
+  r
+  r
+  r
+  r %140
+  r
+  <6>
+  <5>
+  <6>
+  q %145
+  q
+  r
+  r2 <[6]>4
+  r2.
+  r %150
+  r
+  r
+  r
+  r
+  r %155
+  r
+  r
+  <6>
+  q
+  r %160
+  <6>
+  r
+  r
+  r
+  r %165
+  r %166 finis
+}

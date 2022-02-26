@@ -85,3 +85,107 @@ GloriaAltoLyrics = \lyricmode {
   tu -- _ _
   am. %43 finis
 }
+
+DomineFiliAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoDomineFili
+      \set Score.currentBarNumber = #103
+    R2.*9 %111
+    \mvTr c8([\pE^\soloE d)] e([ f)] g([ f)]
+    e4.( d8) c4
+    d8([ c)] d([ e f g)]
+    e4. d8 e4 %115
+    a8[ g a g f e]
+    d4. d8 e fis
+    g a fis4.(\trill e16[ fis)]
+    g2 r4
+    g8([ f)] g([ a)] g([ f)] %120
+    e4.(\trill d8) e4
+    f8([ e)] f([ g)] f e
+    d4. c8 d4
+    R2.*2 %125
+    g8[ a g a g a]
+    f[ g f g f g]
+    e[ f e f e f]
+    d[ e d e d e]
+    h4. a8 h4 %130
+    a'8[ g a h a g]
+    f[ e f g f g]
+    e4. f8 e([ d)]
+    c([ d] h2)
+    a r4 %135
+    a'8([ g)] a([ h)] g([ a)]
+    h4.( a8) h4
+    g8([ f)] g a f([ g)]
+    a4. g8 a4
+    f8.[ g16 f8. g16 f8. g16] %140
+    f2.\trill
+    g8.[ a16 g8. a16 g8. a16]
+    g2.\trill
+    a8.[ b16 a8. b16 a8. b16]
+    g8.[ a16 g8. a16 g8. a16] %145
+    f8.[ g16 f8. g16 f8. g16]
+    e8.[ f16 e8. f16 e8. f16]
+    g4. a8 g([ f)]
+    e([ f] d2)
+    c r4 %150
+    a'8[ g a b a b]
+    g[ f g a f g]
+    a[ g a b a b]
+    g[ f g a g f]
+    g4. a8 g f %155
+    e8.[( f16] d2)
+    c r4
+    R2.*8 %165
+    R2.\fermata \bar "||" %166 finis
+  }
+}
+
+DomineFiliAltoLyrics = \lyricmode {
+  Do -- mi -- ne %112
+  Fi -- li
+  u -- ni --
+  ge -- ni -- te, %115
+  Je --
+  _ su, Je -- su,
+  Je -- su Chri --
+  ste,
+  Do -- mi -- ne %120
+  Fi -- li,
+  Fi -- li u -- ni --
+  ge -- ni -- te,
+
+  Je -- %126
+  _
+  _
+  _
+  _ _ su, %130
+  Je --
+  _
+  _ _ su
+  Chri --
+  ste, %135
+  Do -- mi -- ne
+  Fi -- li,
+  Fi -- li u -- ni --
+  ge -- ni -- te,
+  Je -- %140
+  _
+  _
+  _
+  _
+  _ %145
+  _
+  _
+  _ _ su
+  Chri --
+  ste, %150
+  Je --
+  _
+  _
+  _
+  _ su, Je -- su %155
+  Chri --
+  ste. %157 finis
+}

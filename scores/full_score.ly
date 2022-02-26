@@ -76,46 +76,80 @@
   %     \midi { \tempo 4 = 90 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Domine Deus"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #22
+  %     system-system-spacing.minimum-distance = #22
+  %     systems-per-page = #3
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup \with { \smallGroupDistance } <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "vl" "1, 2" }
+  %           \DomineDeusViolinoI
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \DomineDeusSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \DomineDeusSopranoLyrics
+  %
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \DomineDeusBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \DomineDeusBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \DomineDeusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \DomineDeusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Domine Deus"
+    \subsection "Domine Fili"
     \addTocEntry
     \paper {
-      system-system-spacing.basic-distance = #22
-      system-system-spacing.minimum-distance = #22
-      systems-per-page = #3
+      system-system-spacing.basic-distance = #20
+      system-system-spacing.minimum-distance = #20
+      systems-per-page = #4
     }
     \score {
       <<
-        \new StaffGroup \with { \smallGroupDistance } <<
-          \new Staff {
-            \set Staff.instrumentName = \markup \center-column { "vl" "1, 2" }
-            \DomineDeusViolinoI
-          }
+        \new Staff \with { \smallStaffDistance } <<
+          \set Staff.instrumentName = "clno"
+          \DomineFiliClarino
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \DomineDeusSoprano }
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \DomineFiliAlto }
           }
-          \new Lyrics \lyricsto Soprano \DomineDeusSopranoLyrics
-
-          \new Staff {
-            \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \DomineDeusBasso }
-          }
-          \new Lyrics \lyricsto Basso \DomineDeusBassoLyrics
+          \new Lyrics \lyricsto Alto \DomineFiliAltoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \DomineDeusOrgano
+            \DomineFiliOrgano
           }
         >>
-        \new FiguredBass { \DomineDeusBassFigures }
+        \new FiguredBass { \DomineFiliBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 100 }
+      \midi { \tempo 4 = 145 }
     }
   }
 }

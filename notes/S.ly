@@ -181,7 +181,6 @@ DomineDeusSopranoLyrics = \lyricmode {
   tens. %94 finis
 }
 
-% Do -- mi -- ne Fi -- li u -- ni -- ge -- ni -- te, Je -- su Chri -- ste,
 % Do -- mi -- ne De -- us, A -- gnus De -- i, Fi -- li -- us Pa -- tris.
 % Qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.
