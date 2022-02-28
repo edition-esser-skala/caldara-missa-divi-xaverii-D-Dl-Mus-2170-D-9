@@ -323,3 +323,76 @@ QuoniamBassoLyrics = \lyricmode {
   _ su Chri --
   ste. %350 finis
 }
+
+CumSanctoBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #364
+    r4 \mvTr d\fE^\tuttiE a a
+    b2. b4 %365
+    f'1\fermata
+    \tempoInGloria r4 r8 c' c c16 c h!8 h
+    c c, r4 r c'8 h
+    c g d4 g r8 d
+    g g16 g e8 e f! f r c %370
+    d d16 d h8 h c c r4
+    r e8 e f4 c \noBreak
+    g'1 \bar "||"
+    \time 6/4 \newSpacingSection c,2 r4 r2 r4 \noBreak
+    R1.*5 %379
+    r4 h'8[ a] g4 c8[ h] a4 d %380
+    h g h a d d,
+    g2 r4 r2 r4
+    R1.*2
+    r4 e8[ d] c4 f8[ e] d4 g %385
+    e c e d g8[ f] g4
+    c,2 r4 r2 r4
+    R1.*2
+    r4 e e a,2. %390
+    e'2 r4 r2 r4
+    R1.*5 %396
+    r2 r4 r c8[( h]) a4
+    d( h e) a, r r
+    R1.*4 %402
+    r4 g'8([ a h g] c4) c, r
+    g'( g8[ a h g] c4) c, r
+    R1.*2 %406
+    r2 r4 r e8[ d] c4
+    f d g c,2 r4\fermata \bar "|." %308 finis
+  }
+}
+
+CumSanctoBassoLyrics = \lyricmode {
+  Cum San -- cto %364
+  Spi -- ri -- %365
+  tu
+  in glo -- ri -- a De -- i
+  Pa -- tris, De -- i
+  Pa -- tris, a -- men, in
+  glo -- ri -- a De -- i Pa -- tris, in %370
+  glo -- ri -- a De -- i Pa -- tris,
+  De -- i Pa -- tris,
+  a --
+  men,
+
+  a -- _ _ _ _ %380
+  _ _ _ _ _ _
+  men,
+
+  a -- _ _ _ _ %385
+  _ _ _ _ _ _
+  men,
+
+  a -- men, a -- %390
+  men,
+
+  a -- men, %397
+  a -- men,
+
+  a -- men, %403
+  a -- men,
+
+  a -- _ %407
+  _ _ _ men. %408 finis
+}

@@ -289,4 +289,103 @@ QuiTollisSopranoLyrics = \lyricmode {
   bis. %265 finis
 }
 
-% Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.
+CumSanctoSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #364
+    r4 \mvTr a'\fE^\tuttiE c c
+    b2. b4 %365
+    a1\fermata
+    \tempoInGloria r4 r8 c d d16 d d8 d
+    c c r4 r c8 d
+    c h a4 h r8 a
+    h h16 h c8 c a a r e' %370
+    d d16 d d8 d c c r4
+    r c8 c c4 c \noBreak
+    h8([ a16 g] c2 h4) \bar "||"
+    \time 6/4 \newSpacingSection
+      c4 \mvTr e\pE^\solo c f8[ e] d4 g \noBreak
+    e c e d g, h %375
+    c4 c8[ d e8. f16] e4 c8[ d e8. f16]
+    e8[ d c d e8. f16] d4 h8[ c d8. e16]
+    d4 h8[ c d8. e16] d8[ c h c d e]
+    c4 a8[ h c8. d16] c8[ h a h c8. d16]
+    h4 \mvTr h8[\fE^\tuttiE c] h4 c c8[ h] a4 %380
+    g d'8[ e d e] c[ h a d c d]
+    h2 r4 r2 r4
+    r \mvTr e\pE^\solo e f8([ e d e f8.^\critnote g16)]
+    e4 r r r2 r4
+    r \mvTr c8[\fE^\tuttiE h] c4 a h8[ c a h] %385
+    c4 g c~ c h4.\trill a16[ h]
+    c4 \mvTr e\pE^\solo c a d8[ c h a]
+    gis4 e e' c d4.(\trill c16[ d)]
+    e2.~\trill e~
+    e~ e~ %390
+    e~ e~
+    e e
+    e8[ d e f e d] c2.\trill
+    d8[ c d e d c] h2.\trill
+    e8[ d e f e d] c4. h8[ c8. d16] %395
+    c4. h8[ c8. d16] c4. h8[ c8. d16]
+    e8 d16([ c)] h2 a4 \mvTr a\fE^\tutti a
+    a( gis8[ fis?] gis4) a r r
+    R1.
+    r2 r4 r \mvTr e'8[\pE^\soloE d] c4 %400
+    f8[ e] d4 g e c e
+    d g, h c \mvTr c8[(\fE^\tuttiE d e c]
+    d2.)\trill c4 c8([ d e c)]
+    d2.\trill r4 \mvTr e8.[\pE^\soloE f16] e4
+    f d8.[ e16] d4 e c8.[ d16] c4 %405
+    d h8.[ c16] h4 c g c~
+    c8 d d4. c16[ d] c4 \mvTr c8[\fE^\tutti h] c4~
+    c h8[ a] h4 c2 r4\fermata \bar "|." %408 finis
+  }
+}
+
+CumSanctoSopranoLyrics = \lyricmode {
+  Cum San -- cto %364
+  Spi -- ri -- %365
+  tu
+  in glo -- ri -- a De -- i
+  Pa -- tris, De -- i
+  Pa -- tris, a -- men, in
+  glo -- ri -- a De -- i Pa -- tris, in %370
+  glo -- ri -- a De -- i Pa -- tris,
+  De -- i Pa -- tris,
+  a --
+  men, a -- _ _ _ _
+  _ _ _ _ _ _ %375
+  men, a -- _ _
+  _ _ _
+  _ _ _
+  _ _ _
+  men, a -- _ _ _ _ %380
+  _ _ _
+  men,
+  a -- men, a --
+  men,
+  a -- _ _ _ %385
+  _ _ _ _ _
+  men, a -- _ _ _
+  _ _ _ _ _
+  _
+
+  men, %392
+  a -- _
+  _ _
+  _ _ _ %395
+  _ _ _ _
+  _ men, a -- men, a -- men,
+  a -- men,
+
+  a -- _ %400
+  _ _ _ _ _ _
+  _ _ _ men, a --
+  men, a --
+  men, a -- _
+  _ _ _ _ _ _ %405
+  _ _ _ _ _ _
+  _ _ _ men, a -- _
+  _ _ men. %408 finis
+}

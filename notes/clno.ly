@@ -277,3 +277,54 @@ QuoniamTromba = {
     R2.\fermata \bar "||" %363 finis
   }
 }
+
+CumSanctoClarino = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCumSancto
+      \set Score.currentBarNumber = #364
+    r4 d'\f c c
+    d2. d4 %365
+    c1\fermata
+    \tempoInGloria r2 r4 r8 g'
+    g g16 g g8 g e e r4
+    r r8 d d d16 d d8 d
+    d d r c c c16 c c8 c %370
+    f f r g g g16 g g8 g
+    c, c c c c4 c \noBreak
+    g g g4. g8 \bar "||"
+    \time 6/4 \newSpacingSection e2 r4 r2 r4 \noBreak
+    R1. %375
+    r4 e'8[\pE f g8. a16] g4 e8[ f g8. a16]
+    g8[ f e f g8. a16] f4 d8[ e f8. g16]
+    f4 d8[ e f8. g16] f8 e d e f g
+    e4 c8[ d e8. f16] e8[ d c d e8. f16]
+    d4 g8\f fis g4 e fis8 g e fis %380
+    g4 d g~ g fis4.\trill e16( fis)
+    g4 r r r2 r4
+    r g\pE g a8[ g f g a8. b16]
+    g4 r r r2 r4
+    r c,8\fE d e4 c d8 e c d %385
+    e4. e8 f g f4 d4.\trill c16 d
+    e2 r4 r2 r4
+    R1.*2
+    r4 e\fE e e e e %390
+    e e r r2 r4
+    r2 r4 e8\pE d e f e d
+    c2\trill r4 a'8[ g a b a8. g16]
+    f2 r4 g8 f g a g f
+    e2 r4 e4. d8[ e8. f16] %395
+    e4. d8[ e8. f16] e4. d8[ e8. f16]
+    e4 e4. d8 c4 r r
+    r2 r4 r e8\fE d c4
+    f8 e d4 g e c e
+    d g, g' e r r %400
+    R1.*2
+    r4 g8\fE f g f e4 r r
+    r g8 f g f e4 g8.\pE a16 g4
+    a f8. g16 f4 g e8. f16 e4 %405
+    f d8. e16 d4 e8 f e f g4
+    c, g4 .g8 e4 r r
+    R1.\fermata \bar "|." %408 finis
+  }
+}

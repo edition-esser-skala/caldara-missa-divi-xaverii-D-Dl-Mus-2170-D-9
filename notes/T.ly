@@ -352,3 +352,76 @@ QuoniamTenoreLyrics = \lyricmode {
   su Chri --
   ste. %350 finis
 }
+
+CumSanctoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoCumSancto
+      \set Score.currentBarNumber = #364
+    r4 \mvTr d\fE^\tuttiE c c
+    d2. d4 %365
+    c1\fermata
+    \tempoInGloria r4 r8 e f f16 f d8 d
+    e e r4 r e8 d
+    e d d4 d r8 d
+    d d16 d c8 c c c r c %370
+    a a16 a d8 d e e r4
+    r c8 c a4 e' \noBreak
+    d( e d2) \bar "||"
+    \time 6/4 \newSpacingSection e2 r4 r2 r4 \noBreak
+    R1.*5 %384
+    r4 d8[ c] d4 e8[ d] c4 \once \tieDashed d~
+    d h d e d2
+    d r4 r2 r4
+    R1.*2
+    r4^\critnote e8[ f] e4 f f8[ e] d4 %385
+    c4. c8[ d e] f4 g d
+    c2 r4 r2 r4
+    R1.*2
+    r4 h h c8[( d c d c d] %390
+    h4) h r r2 r4
+    R1.*5 %396
+    r2 r4 r a8([ h)] c4
+    h2. c4 r r
+    R1.*4 %402
+    r4 h8([ c d h] e4) e r
+    h( h8[ c d h] e4) e r
+    R1.*2 %406
+    r2 r4 r c8[ d] e4
+    d4. c8 d4 e2 r4\fermata \bar "|." %408 finis
+  }
+}
+
+CumSanctoTenoreLyrics = \lyricmode {
+  Cum San -- cto %364
+  Spi -- ri -- %365
+  tu
+  in glo -- ri -- a De -- i
+  Pa -- tris, De -- i
+  Pa -- tris, a -- men, in
+  glo -- ri -- a De -- i Pa -- tris, in %370
+  glo -- ri -- a De -- i Pa -- tris,
+  De -- i Pa -- tris,
+  a --
+  men,
+
+  a -- _ _ _ _ %380
+  _ _ _ _
+  men,
+
+  a -- _ _ _ _ %385
+  _ _ _ _ _
+  men,
+
+  a -- men, a -- %390
+  men,
+
+  a -- men, %397
+  a -- men,
+
+  a -- men, %403
+  a -- men,
+
+  a -- _ %407
+  _ _ _ men. %408 finis
+}

@@ -737,3 +737,90 @@ QuoniamBassFigures = \figuremode {
   r4 <5 3> <\t \t>
   r2.*5 %363 finis
 }
+
+CumSanctoOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoCumSancto
+      \set Score.currentBarNumber = #364
+    r4 \mvTr d\fE-\tutti a2
+    b1 %365
+    f\fermata
+    \tempoInGloria r4 r8 c'' c c16 c h!8 h
+    c c, g' g, c c, c'' h
+    c g d' d, g g16 g d8 d
+    g g e e f! f c c %370
+    d d h h c c g g
+    a a e' e f4 c \noBreak
+    g1 \bar "||"
+    \time 6/4 \newSpacingSection c2 r4 r2 r4 \noBreak
+    R1. %375
+    r4 \mvTr c'\p-\soloE c, r c' c,
+    r c' c, d g g,
+    r g' g, r g' g,
+    c f c r f c
+    g' \mvTr h8\fE-\tutti a g4 c8 h a4 d %380
+    h g h a d d,
+    g2 r4 r2 r4
+    r \mvTr c\p-\soloE c, f b f
+    c' r r r2 r4
+    r \mvTr e,8\fE-\tutti d c4 f8 e d4 g %385
+    e c e d g8 f g4
+    c,2 r4 r2 r4
+    R1.*2
+    r4 \mvTr e\fE-\tuttiE e a,2. %390
+    e'2 r4 r2 r4
+    R1.*5 %396
+    r2 r4 r \mvTr c8\fE-\tuttiE h a4
+    d h e a, r c~-\solo
+    c h2 c2.
+    f4 g g, c r r %400
+    R1.*2
+    r4 \mvTr g'8\fE-\tuttiE a h g c4 c, r
+    r g'8 a h g c4 c, r
+    R1.*2 %406
+    r2 r4 r \mvTr e8\fE-\tuttiE d c4
+    f d g c,2 r4\fermata \bar "|." %408 finis
+  }
+}
+
+CumSanctoBassFigures = \figuremode {
+  r4 <8> <6>2 %364
+  r1 %365
+  r
+  r2 \bo <[2]>4 \bc <[6]>
+  r2.. <[6]>8
+  r4 <4>8 <_+> r4 <_+>
+  r <6>2. %370
+  r4 <[6]>2.
+  r4 <6>2.
+  <5 3>4 <6 4> <5 \t> <\t 3>
+  r1.
+  r %375
+  r
+  r
+  r
+  r
+  r4 \bo <[6]>8 \bc <[6\\]> r2 <6\\>4 <_+> %380
+  <6>2. <7>4 <_+>2
+  r1.
+  r
+  r
+  r4 <6>8 <[6]> r2 <6> %385
+  <[6]>2. <7>
+  r1.
+  r1.*2
+  r4 <_+>2 r2. %390
+  <_+>1.
+  r1.*5 %396
+  r1 <6>2
+  r4 <6\\> <_+> r2.
+  <2>4 <6>2 r2.
+  <6>1. %400
+  r1.*2
+  r1.
+  r
+  r1.*2 %406
+  r1 <6>8 <[6]>4.
+  \bo <6 [5]>4 \bc <\t [\t]> r1 %408 finis
+}

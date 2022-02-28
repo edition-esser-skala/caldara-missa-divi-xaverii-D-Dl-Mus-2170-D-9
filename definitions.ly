@@ -21,6 +21,8 @@ tempoQuiTollis = \tempoMarkup "Grave"
   tempoSuscipe = \tempoMarkup "[Allegro]"
   tempoQuiSedes = \tempoMarkup "Grave"
 tempoQuoniam = \tempoMarkup "Allegro"
+tempoCumSancto = \tempoMarkup "Grave"
+  tempoInGloria = \tempoMarkup "Andante"
 
 
 \include "notes/ob.ly"

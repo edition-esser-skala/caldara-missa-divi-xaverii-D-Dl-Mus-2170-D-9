@@ -182,3 +182,43 @@ QuoniamViolaII = {
     R2.\fermata \bar "||" %363 finis
   }
 }
+
+CumSanctoViolaII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoCumSancto
+      \set Score.currentBarNumber = #364
+    r4 a\fE a a
+    f2. f4 %365
+    a1\fermata
+    \tempoInGloria r2 r4 r8 d
+    e c16 c d8 d c c r4
+    r r8 d d d16 d d8 d
+    d d r g, a a16 a e8 e %370
+    f f r d' e e16 e h8 h
+    c c c c c4 c \noBreak
+    d c d2 \bar "||"
+    \time 6/4 \newSpacingSection e2 r4 r2 r4 \noBreak
+    R1.*5 %379
+    r4 d8\fE c d4 e8 d c4 d %380
+    d h d e d4. d8
+    d2 r4 r2 r4
+    R1.*2
+    r4 e8\fE f e4 f f8 e d4 %385
+    c4. c8 d e f4 g d
+    c r r r2 r4
+    R1.*2
+    r4 h\fE h c8 d c d c d %390
+    h4 h r r2 r4
+    R1.*5 %396
+    r2 r4 r c\fE c
+    h h h a r r
+    R1.*4 %402
+    r4 d\fE h e r r
+    r d h e r c\pE
+    a b2 g4 a2 %405
+    f4 g2 e4. d8 e4
+    f d g c,8 c'\fE c c c c
+    a d d d d d c2 r4\fermata \bar "|." %408 finis
+  }
+}
