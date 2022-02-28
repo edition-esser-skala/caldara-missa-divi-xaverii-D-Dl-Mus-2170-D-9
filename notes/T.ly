@@ -125,3 +125,108 @@ DomineAgnusTenoreLyrics = \lyricmode {
   _ _ _
   tris. %207 finis
 }
+
+QuiTollisTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #216
+    r4 \mvTr c\fE^\tuttiE c2
+    c r4 c
+    c2. f4
+    e2 e
+    r4 e8 e e2 %220
+    f r4 f8 f
+    dis([ cis?16 h)] e2 dis4
+    e2 r\fermata
+    r4 a, a2
+    a r4 e' %225
+    d2. d4
+    d1 \noBreak
+    cis\fermata \bar "||"
+    \time 3/2 \tempoSuscipe r2 r d~ \noBreak
+    d cis4( h) cis2 %230
+    d2. cis4 d2
+    R1.*2
+    d1.
+    e %235
+    f1 d2~
+    d c4( b) c2~
+    c4 b a2 b4( c)
+    d2( c1)
+    c r2 %240
+    r r e~
+    e d4( cis) d2
+    d2. cis4 cis2
+    R1.
+    r2 d g, %245
+    e'1.~
+    e2 d( cis)
+    d1.~
+    d2. c4 b2~
+    b a g %250
+    a1.~
+    a~
+    a
+    a
+    R \noBreak %255
+    R\fermata \bar "||"
+    \time 4/4 \tempoQuiSedes r4 d d2 \noBreak
+    d r4 e
+    fis2. fis8 fis
+    e2 e %260
+    R1*2
+    a8([ g)] f([ e)] f([ e)] d([ c!)]
+    h4( c h2)
+    cis1\fermata \bar "||" %265 finis
+  }
+}
+
+QuiTollisTenoreLyrics = \lyricmode {
+  Qui tol -- %216
+  lis pec --
+  ca -- ta
+  mun -- di:
+  Mi -- se -- re -- %220
+  re, mi -- se --
+  re -- re no --
+  bis.
+  Qui tol --
+  lis pec -- %225
+  ca -- ta
+  mun --
+  di:
+  Su --
+  sci -- pe, %230
+  su -- sci -- pe,
+
+  su -- %234
+  sci -- %235
+  pe de --
+  pre -- ca --
+  ti -- o -- nem
+  no --
+  stram, %240
+  su --
+  sci -- pe,
+  su -- sci -- pe
+
+  de -- pre -- %245
+  ca --
+  ti --
+  o --
+  _ _
+  _ nem %250
+  no --
+
+  stram. %254
+
+  Qui se -- %257
+  des ad
+  dex -- te -- ram
+  Pa -- tris: %260
+
+  Mi -- se -- re -- re %263
+  no --
+  bis. %265 finis
+}

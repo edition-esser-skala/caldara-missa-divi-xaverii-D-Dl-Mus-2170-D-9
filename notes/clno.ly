@@ -102,3 +102,33 @@ DomineFiliClarino = {
     R2.\fermata \bar "||" %166 finis
   }
 }
+
+QuiTollisClarino = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #216
+    r4 g''\fE g2
+    g r4 g
+    f2. f4
+    g2 g
+    r4 g8 g g2 %220
+    c, r
+    R1
+    R\fermata
+    r4 e e2
+    e r4 e %225
+    d2. d4
+    d1 \noBreak
+    a'\fermata \bar "||"
+    \time 3/2 \tempoSuscipe R1.*27 \noBreak %255
+    R1.\fermata \bar "||"
+    \time 4/4 \tempoQuiSedes r4 d, d2 \noBreak
+    d r4 e
+    fis2. fis8 fis
+    e2 e %260
+    R1*3
+    r4 e e2
+    e1\fermata \bar "||" %265 finis
+  }
+}

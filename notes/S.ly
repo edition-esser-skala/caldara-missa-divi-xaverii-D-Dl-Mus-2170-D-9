@@ -181,12 +181,114 @@ DomineDeusSopranoLyrics = \lyricmode {
   tens. %94 finis
 }
 
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% Qui tol -- lis pec -- ca -- ta mun -- di:
-% Su -- sci -- pe de -- pre -- ca -- ti -- o -- nem no -- stram.
-% Qui se -- des ad dex -- te -- ram Pa -- tris:
-% Mi -- se -- re -- re no -- bis.
+QuiTollisSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #216
+    r4 \mvTr c'\fE^\tuttiE c2
+    c r4 c
+    c2. c4
+    c2 c
+    r4 c8 c c2 %220
+    c r4 c8 c
+    h4 h h2
+    h r\fermata
+    r4 a a2
+    a r4 a %225
+    a2. a4
+    h1 \noBreak
+    a\fermata \bar "||"
+    \time 3/2 \tempoSuscipe R1.*2 %230
+    a1.
+    h
+    cis2 cis4 h cis a
+    d1.~
+    d2 a c! %235
+    b1.~
+    b2 g c
+    a1.
+    g
+    a %240
+    b
+    a
+    a2 d a
+    f'1.~
+    f2 g4 f e( d) %245
+    cis2.( h4) cis2
+    r d a
+    f'1.~
+    f2 g4 f e( d)
+    cis1. %250
+    d
+    cis1 d2~
+    d cis1
+    d1.
+    R \noBreak %255
+    R\fermata \bar "||"
+    \time 4/4 \tempoQuiSedes r4 d d2 \noBreak
+    d r4 c
+    c2. c8 c
+    c2 h %260
+    a a
+    a a
+    a1
+    gis4 a2 gis4
+    a1\fermata \bar "||" %265 finis
+  }
+}
+
+QuiTollisSopranoLyrics = \lyricmode {
+  Qui tol -- %216
+  lis pec --
+  ca -- ta
+  mun -- di:
+  Mi -- se -- re -- %220
+  re, mi -- se --
+  re -- re no --
+  bis.
+  Qui tol --
+  lis pec -- %225
+  ca -- ta
+  mun --
+  di:
+
+  \xE Su -- %231
+  sci --
+  pe de -- pre -- ca -- ti --
+  o --
+  _ _ %235
+  _
+  _ _
+  _
+  _
+  \x nem, %240
+  su --
+  sci --
+  pe de -- pre --
+  ca --
+  _ _ ti -- %245
+  o -- nem,
+  de -- pre --
+  ca --
+  _ _ ti --
+  o -- %250
+  nem
+  no -- _
+  _
+  stram.
+
+  Qui se -- %257
+  des ad
+  dex -- te -- ram
+  Pa -- tris: %260
+  Mi -- se --
+  re -- re
+  no --
+  _ _ _
+  bis. %265 finis
+}
+
 % Quo -- ni -- am tu so -- lus san -- ctus, tu so -- lus Do -- mi -- nus,
 % tu so -- lus al -- tis -- si -- mus, Je -- su Chri -- ste.
 % Cum San -- cto Spi -- ri -- tu in glo -- ri -- a De -- i Pa -- tris, a -- men.

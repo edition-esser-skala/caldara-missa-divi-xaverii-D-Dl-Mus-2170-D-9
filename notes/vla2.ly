@@ -82,3 +82,59 @@ DomineAgnusViolaII = {
     g d g d h d g,4.\fermata \bar "||" %215 finis
   }
 }
+
+QuiTollisViolaII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #216
+    r4 c\fE c2
+    c r4 c
+    a2. a4
+    c2 c
+    r4 c8 c c2 %220
+    c r4 c8 c
+    h!4 h fis'2
+    gis? r\fermata
+    r4 e e2
+    e r4 e %225
+    f2. f4
+    d2 h \noBreak
+    cis1\fermata \bar "||"
+    \time 3/2 \tempoSuscipe r2 r d~ \noBreak
+    d cis4 h cis2 %230
+    d2. cis4 d2
+    R1.*2
+    d1.
+    e %235
+    f1 d2~
+    d c4 b c2~
+    c4 b a2 b4 c
+    d2 c1
+    c r2 %240
+    r r e~
+    e d4 cis d2
+    d2. cis4 cis2
+    R1.
+    r2 d g, %245
+    e'1.~
+    e2 d cis
+    d1.~
+    d2. c4 b2~
+    b a g %250
+    a1.~
+    a~
+    a
+    a
+    R \noBreak %255
+    R\fermata \bar "||"
+    \time 4/4 \tempoQuiSedes r4 d d2 \noBreak
+    d r4 c
+    fis,2. a8 a
+    c2 gis %260
+    R1*2
+    a'8 g f e f e d c!
+    h4 a h2
+    cis1\fermata \bar "||" %265 finis
+  }
+}

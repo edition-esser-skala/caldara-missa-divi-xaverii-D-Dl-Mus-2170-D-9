@@ -129,3 +129,107 @@ DomineDeusBassoLyrics = \lyricmode {
   _ ter o -- mni -- po --
   tens. %94 finis
 }
+
+QuiTollisBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #216
+    r4 \mvTr e\fE^\tuttiE e2
+    e r4 e
+    f2. f4
+    c2 c
+    r4 c'8 c b2 %220
+    a r4 a8 a
+    h!4 h h,2
+    e r\fermata
+    r4 cis cis2
+    cis r4 cis %225
+    d2. d4
+    gis,1 \noBreak
+    a\fermata \bar "||"
+    \time 3/2 \tempoSuscipe d1. \noBreak
+    e %230
+    f2 f4 e f d
+    g2.( f4) g( e)
+    a2 a, r
+    r f'4 e f d
+    a'1.~ %235
+    a2 d, g
+    e1.
+    f
+    b,2 c1
+    f r2 %240
+    g1 cis,2
+    d2.( e4 f g)
+    a2. a,4 a2
+    R1.*4 %247
+    r2 d' d,
+    g1.~
+    g2 a4( g) f( e %250
+    f2) e( d)
+    a1.~
+    a
+    d
+    R \noBreak %255
+    R\fermata \bar "||"
+    \time 4/4 \tempoQuiSedes r4 h! h2 \noBreak
+    h r4 a'
+    dis,2. dis8 dis
+    e2 e %260
+    a8([ g!)] f([ e)] f([ e)] d([ cis)]
+    d4 e f8([ e d cis)]
+    d([ e f g)] f[ cis? d a]
+    e'1
+    a,\fermata \bar "||" %265 finis
+  }
+}
+
+QuiTollisBassoLyrics = \lyricmode {
+  Qui tol -- %216
+  lis pec --
+  ca -- ta
+  mun -- di:
+  Mi -- se -- re -- %220
+  re, mi -- se --
+  re -- re no --
+  bis.
+  Qui tol --
+  lis pec -- %225
+  ca -- ta
+  mun --
+  di:
+  Su --
+  sci -- %230
+  pe de -- pre -- ca -- ti --
+  o -- nem
+  no -- stram,
+  de -- pre -- ca -- ti --
+  o -- %235
+  _ nem
+  no --
+  _
+  _ _
+  stram, %240
+  su -- sci --
+  pe, __
+  su -- sci -- pe
+
+  de -- pre -- %248
+  ca --
+  ti -- o -- %250
+  nem __
+  no --
+  
+  stram.
+
+  Qui se -- %257
+  des ad
+  dex -- te -- ram
+  Pa -- tris: %260
+  Mi -- se -- re -- re,
+  mi -- se -- re --
+  re __ no --
+  _
+  bis. %265 finis
+}

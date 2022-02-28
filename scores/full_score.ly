@@ -152,38 +152,109 @@
   %     \midi { \tempo 4 = 145 }
   %   }
   % }
+  % \bookpart {
+  %   \subsection "Domine Deus, Agnus Dei"
+  %   \addTocEntry
+  %   \paper {
+  %     system-system-spacing.basic-distance = #20
+  %     system-system-spacing.minimum-distance = #20
+  %     systems-per-page = #4
+  %   }
+  %   \score {
+  %     <<
+  %       \new Staff \with { \smallStaffDistance } <<
+  %         \set Staff.instrumentName = "vla 2"
+  %         \DomineAgnusViolaII
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \DomineAgnusTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \DomineAgnusTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \DomineAgnusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \DomineAgnusBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 8 = 160 }
+  %   }
+  % }
   \bookpart {
-    \subsection "Domine Deus, Agnus Dei"
+    \subsection "Qui tollis"
     \addTocEntry
-    \paper {
-      system-system-spacing.basic-distance = #20
-      system-system-spacing.minimum-distance = #20
-      systems-per-page = #4
-    }
     \score {
       <<
-        \new Staff \with { \smallStaffDistance } <<
-          \set Staff.instrumentName = "vla 2"
-          \DomineAgnusViolaII
+        \new Staff <<
+          \set Staff.instrumentName = "clno"
+          \QuiTollisClarino
+        >>
+        \new StaffGroup <<
+          \new GrandStaff \with { \smallGroupDistance } <<
+            \set GrandStaff.instrumentName = "vl"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \QuiTollisViolinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \QuiTollisViolinoII
+            }
+          >>
+          \new GrandStaff <<
+            \set GrandStaff.instrumentName = "vla"
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \QuiTollisViolaI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \QuiTollisViolaII
+            }
+          >>
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \DomineAgnusTenore }
+            \set Staff.instrumentName = "S"
+            \new Voice = "Soprano" { \dynamicUp \QuiTollisSoprano }
           }
-          \new Lyrics \lyricsto Tenore \DomineAgnusTenoreLyrics
+          \new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \QuiTollisAlto }
+          }
+          \new Lyrics \lyricsto Alto \QuiTollisAltoLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "T"
+            \new Voice = "Tenore" { \dynamicUp \QuiTollisTenore }
+          }
+          \new Lyrics \lyricsto Tenore \QuiTollisTenoreLyrics
+
+          \new Staff {
+            \set Staff.instrumentName = "B"
+            \new Voice = "Basso" { \dynamicUp \QuiTollisBasso }
+          }
+          \new Lyrics \lyricsto Basso \QuiTollisBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \DomineAgnusOrgano
+            \QuiTollisOrgano
           }
         >>
-        \new FiguredBass { \DomineAgnusBassFigures }
+        \new FiguredBass { \QuiTollisBassFigures }
       >>
       \layout { }
-      \midi { \tempo 8 = 160 }
+      \midi { \tempo 2 = 100 }
     }
   }
 }

@@ -88,3 +88,61 @@ DomineDeusViolinoI = {
     a a, r4 r2\fermata \bar "||" %102 finis
   }
 }
+
+QuiTollisViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoQuiTollis
+      \set Score.currentBarNumber = #216
+    r4 c'\fE c2
+    c r4 c
+    c2. c4
+    c2 c
+    r4 e8 e e2 %220
+    f r4 a8 a
+    a4 g fis2
+    e r\fermata
+    r4 a a2
+    a r4 a %225
+    f2. f4
+    f1 \noBreak
+    e\fermata \bar "||"
+    \time 3/2 \tempoSuscipe r4 a, d a f d \noBreak
+    r g g' e cis e, %230
+    r a a' f d d,
+    r d' g d h g
+    r e' cis a e a,
+    r a'' d a f a,
+    r e' a e c! a %235
+    r d f d b g
+    r c g e g c
+    r c f c a f
+    r d' g, c e, c'
+    r c f c a f %240
+    r d' g b g e
+    r a, a' f d a
+    r e' a e cis? a
+    r a' d a f d
+    r d g d b g %245
+    r e' a e cis a
+    r a' d a e g
+    r a d a f d
+    r d g b g e
+    r e cis e g e %250
+    r a, d f a a,
+    r a' e cis a d,
+    r a'' e cis a e
+    r a d a f d
+    r d' f, d' e, cis' \noBreak %255
+    r a d a d,2\fermata \bar "||"
+    \time 4/4 \tempoQuiSedes r4 gis' gis2 \noBreak
+    gis r4 a
+    a2. a8 a
+    a2 gis %260
+    r2 a8 g f e
+    f e d cis d4 e
+    d4. cis?16 h a2
+    gis4 a2 gis4
+    a1\fermata \bar "||" %265 finis
+  }
+}

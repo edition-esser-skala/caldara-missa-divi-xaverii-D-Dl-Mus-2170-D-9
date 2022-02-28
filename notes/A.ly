@@ -189,3 +189,113 @@ DomineFiliAltoLyrics = \lyricmode {
   Chri --
   ste. %157 finis
 }
+
+QuiTollisAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoQuiTollis
+      \set Score.currentBarNumber = #216
+    r4 \mvTr g'\fE^\tuttiE g2
+    g r4 g
+    a2. a4
+    g2 g
+    r4 g8 g g2 %220
+    a r4 a8 a
+    a4 g fis2
+    gis r\fermata
+    r4 e e2
+    e r4 e %225
+    f2. f4
+    f1 \noBreak
+    e\fermata \bar "||"
+    \time 3/2 \tempoSuscipe R1. \noBreak
+    r2 r g~ %230
+    g2 f4( e) f2~
+    f e4 d e2~
+    e e4 d e a
+    f2 a4( g) \once \tieDashed a2~
+    a4. b8 a4 g f e %235
+    d2. d4 e f
+    g1.~
+    g2 c, f~
+    f e1
+    f a2~ %240
+    a g4 ( f) g2
+    f2. f4 f2
+    f2. e4 e2
+    r a d,
+    b'1.~ %245
+    b2 a g
+    f1.~
+    f2 g a
+    b2. a4 g f
+    e2 f g %250
+    f g4 f e d
+    e1 f2
+    e1.
+    f
+    R \noBreak %255
+    R\fermata \bar "||"
+    \time 4/4 \tempoQuiSedes r4 gis gis2 \noBreak
+    gis r4 a
+    a2. a8 a
+    a2 gis %260
+    r a8([ g)] f([ e)]
+    f([ e]) d([ cis)] d4 e
+    f8([ g] a4. g8) a([ g16 f)]
+    e1
+    e\fermata \bar "||" %265 finis
+  }
+}
+
+QuiTollisAltoLyrics = \lyricmode {
+  Qui tol -- %216
+  lis pec --
+  ca -- ta
+  mun -- di:
+  Mi -- se -- re -- %220
+  re, mi -- se --
+  re -- re no --
+  bis.
+  Qui tol --
+  lis pec -- %225
+  ca -- ta
+  mun --
+  di:
+
+  Su -- %230
+  sci -- pe, __
+  su -- sci -- pe __
+  de -- pre -- ca -- ti --
+  o -- nem no --
+  _ _ _ _ _ %235
+  _ _ _ _
+  _
+  _ _
+  _
+  stram, su -- %240
+  sci -- pe,
+  su -- sci -- pe,
+  su -- sci -- pe
+  de -- pre --
+  ca -- %245
+  _ ti --
+  o --
+  _ _
+  _ _ _ _
+  _ _ nem %250
+  no -- _ _ _ _
+  _ _
+  _
+  stram.
+
+  Qui se -- %257
+  des ad
+  dex -- te -- ram
+  Pa -- tris: %260
+  Mi -- se --
+  re -- re, mi -- se --
+  re -- re __
+  no --
+  bis. %265 finis
+}
