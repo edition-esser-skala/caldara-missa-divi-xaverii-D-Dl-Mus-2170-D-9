@@ -299,3 +299,127 @@ QuiTollisAltoLyrics = \lyricmode {
   no --
   bis. %265 finis
 }
+
+QuoniamAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #266
+    R2.*18 %283
+    \mvTr a'8\pE^\solo g a4. b8
+    a([ g)] a4. b8 %285
+    a([ g a b)] a([ g)]
+    f8.([ e16)] f4. g8
+    a8([ g a b)] a[( g)]
+    f4. e8 f4
+    R2.*9 %298
+    g8.[ f16] g4. a8
+    f8.[ e16] f4. g8 %300
+    e8[ d e f e d]
+    e[ d e f e d]
+    e4. d8[( e f])
+    e4( d2)
+    c r4 %305
+    R2.*4
+    g'8. g16 g8 g a a %310
+    g4 g r
+    g a8([ g)] a([ b!)]
+    g f g4 r
+    r r g
+    a8[ g a f g a] %315
+    g[ f g e f g]
+    f[ e f d e f]
+    e8.[ f16 e8. f16 e8. f16]
+    e8.[ f16 e8. f16 e8. f16]
+    e4 a8([ gis)] a([ h?)] %320
+    gis fis e4 a~
+    a8 h gis2
+    a r4
+    R2.*2 %325
+    d,8. e16 f8 f f f
+    f4 e r
+    R2.
+    a4 a8([ g)] a([ b)]
+    g f g4 a~ %330
+    a g8[ f] g4~
+    g f8[ e] f4~
+    f e8[ d] e4
+    f f8([ e)] f([ g)]
+    e8. e16 e4 f~ %335
+    f8 g e4.(\trill d16 [e)]
+    f2 r4
+    R2.
+    r4 r a
+    b2.\trill %340
+    a
+    g\trill
+    f2 f4
+    f4. e8 e4
+    R2. %345
+    g8[ f g e f g]
+    a[ g a c b a]
+    g[ f g b a g]
+    f8. g16 e4.(\trill d16[ e])
+    f4 r r %350
+    R2.*12 %362
+    R2.\fermata \bar "||" %363 finis
+  }
+}
+
+QuoniamAltoLyrics = \lyricmode {
+  Quo -- ni -- am tu %284
+  so -- lus, tu %285
+  so -- lus
+  san -- ctus, tu
+  so -- lus
+  Do -- mi -- nus,
+
+  Je -- _ _ %299
+  _ _ _ %300
+  _
+  _
+  _ su __
+  Chri --
+  ste. %305
+
+  Quo -- ni -- am tu so -- lus %310
+  san -- ctus,
+  tu so -- lus
+  Do -- mi -- nus,
+  tu
+  so -- %315
+  _
+  _
+  _
+  _
+  _ lus al -- %320
+  tis -- si -- mus, Je --
+  su Chri --
+  ste.
+
+  Quo -- ni -- am tu so -- lus %326
+  san -- ctus,
+
+  tu so -- lus
+  Do -- mi -- nus, tu __ %330
+  so -- _
+  _ _
+  _ lus,
+  so -- lus al --
+  tis -- si -- mus, Je -- %335
+  su Chri --
+  ste,
+
+  tu
+  so -- %340
+  _
+  _
+  lus al --
+  tis -- si -- mus,
+  %345
+  Je --
+  _
+  _
+  _ su Chri --
+  ste. %350 finis
+}

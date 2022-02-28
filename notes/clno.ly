@@ -132,3 +132,148 @@ QuiTollisClarino = {
     e1\fermata \bar "||" %265 finis
   }
 }
+
+QuoniamClarino = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #266
+    r8 \mvTr g'\pE-\solo c c d c16( d)
+    c8 d e e f e16( d)
+    e8 \once \slurDashed e16( f) g( f g f) e( g f e)
+    f8 d16( e) f( e f e) d( f e d)
+    e4 r r %270
+    R2.
+    r8 \once \slurDashed \mvTr e16(\pE-\solo f) g( f) g( f) e( g f e)
+    f8 \slurDashed d16( e) f( e f e) d( f e d)
+    e8 \mvTr e16\fE-\tutti( f) \slurSolid g8 g g g
+    g f16 e f8 f f f %275
+    f4. \mvTr g16(\pE-\solo f) g( f) g( f) \slurSolid
+    e8 \mvTr g\fE-\tutti a4 g8 f
+    e4 r r
+    R2.*3 %281
+    r4 r8 g\fE d g
+    c, c' h4. c8
+    c4 r r
+    r c,\p c %285
+    c2.~\trill
+    c~
+    c2 d4
+    g,8 \slurDashed c16( d) e8 c16( d) e8 e
+    e e16( f) g8 e16( f) g8 g %290
+    a f16( g) a8 a a a
+    g16( f) g( f) e4 r \slurSolid
+    R2.
+    r4 e16\pE g f g e g f g
+    c,4 r r %295
+    r e16 g f g c, g' e g
+    a8 g fis16 a g a d, a' g a
+    h8 a g4 r
+    g r r
+    g8 e f!4. g8 %300
+    g4 r r
+    R2.*4 %305
+    r4 d\fE d
+    d2.~\trill
+    d~
+    d4. e8 fis8. fis16
+    g4 r r %310
+    R2.
+    g,8\p g16 g g8 g g g
+    g4 r r
+    g8 g16 g g8 g g g
+    e4 r r %315
+    d'16 g f g d g f g d g f g
+    e4 r r
+    R2.*5 %322
+    r4 e\fE e
+    e2.~\trill
+    e %325
+    d2 r4
+    r d16\pE g f g d g f g
+    g,4 g' g
+    g2.~
+    g2 g,4 %330
+    r d'16 f e f d f e f
+    g,4 r r
+    r d'16 f e f d f e f
+    e g f g e g f g c, e d e
+    d4 r r %335
+    R2.
+    r8 g,\f c c d c16( d)
+    c8 d e e f e16( d)
+    e4 r r
+    R2. %340
+    c16\p e d e c e d e c e d e
+    f8 e d4 r
+    r g g
+    g2.~
+    g8 f e f g a %345
+    g4 g, r
+    g' g, r
+    g' g, r
+    g'8 a g d g f
+    e4 r r %350
+    R2.*3
+    d16\fE g f g d g f g e f e f
+    d4 r r %355
+    d16 g f g d g f g e f e f
+    d8 g, d'16 g f g d g f g
+    e8. f16 d4. c8
+    c \mvTr c\pE-\solo e e f e16 d
+    e8 c c c d e16 d %360
+    c8 \mvTr g\fE-\tuttiE e c e g
+    e4 r r
+    R2.\fermata \bar "||" %363 finis
+  }
+}
+
+QuoniamTromba = {
+  \transpose f c
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #266
+    r8 c'\pE f f g f16( g)^\critnote
+    f8 g a a b a16( g)
+    a8 a16( b) c( b c b) a( c b a)
+    b8 g16( a) b( a b a) g( b a g)
+    a8 f16(\fE g) a8 f16 g a8 a %270
+    b b b b b b
+    a a16\pE b c( b c b) a( c b a)
+    b8 g16( a) b( a b a) g( b a g)
+    a8 a16\f b c8 c c c
+    c b16 a b8 b b b %275
+    \once \tieDashed b4~ b8 \once \slurDashed c16(\pE b) c( b) c( b)
+    a8 f\fE g f g g^\critnote
+    f4 r r
+    R2.*3 %281
+    r4 r8 \mvTr e'8\fE-\critnote d8. e16
+    f( e f g) e4. f8
+    f4 r r
+    R2.*5 %289
+    r8 f,16(\f g) a8 f16( g) a8 a %290
+    b \once \slurDashed b16( a) b8 b b b
+    a16( g) a( g) f4 r
+    R2.*12 %304
+    r8 \mvTr g\f-\critnote c c d c16( h) %305
+    c8 d e e f e16( d)
+    e8 e16( f) g( f) g( f) e( g f e)
+    f8 \once \slurDashed d16( e) f( e) f( e) d( f e d)
+    e8 r r4 r
+    R2.*13 %322
+    r8 \mvTr e\f-\critnote e e f e16( d)
+    e8.([ f16) e8.( f16) e8.( f16)]
+    e4 r r %325
+    R2.*11 %336
+    r8 c,\pE f f g f16( g)^\critnote
+    f8 g a a b a16( g)
+    a4 r r
+    R2.*19 %358
+    r8 a\pE a a b a16( g)
+    a8 f f f g f16( g)^\critnote %360
+    f c'\fE d e f c d e f c a c
+    f,4 r r
+    R2.\fermata \bar "||" %363 finis
+  }
+}

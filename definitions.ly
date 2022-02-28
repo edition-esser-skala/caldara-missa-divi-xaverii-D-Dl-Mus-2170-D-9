@@ -6,6 +6,12 @@
 \include "ees.ly"
 
 
+tromba = \markup \remark "Tromba"
+oboe = \markup \remark "Oboe"
+vv = \markup \remark "Vv."
+vvE = \markup \remarkE "Vv."
+
+
 tempoGloria = \tempoMarkup "Allegro"
   tempoGratias = \tempoMarkup "Adagio"
 tempoDomineDeus = \tempoMarkup "Allegro"
@@ -14,8 +20,10 @@ tempoDomineAgnus = \tempoMarkup "Andante"
 tempoQuiTollis = \tempoMarkup "Grave"
   tempoSuscipe = \tempoMarkup "[Allegro]"
   tempoQuiSedes = \tempoMarkup "Grave"
+tempoQuoniam = \tempoMarkup "Allegro"
 
 
+\include "notes/ob.ly"
 \include "notes/clno.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

@@ -138,3 +138,47 @@ QuiTollisViolaII = {
     cis1\fermata \bar "||" %265 finis
   }
 }
+
+QuoniamViolaII = {
+  \relative c' {
+    \clef tenor
+    \key f \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #266
+    f4\pE r r
+    R2.*3
+    r8 c\fE c c c c %270
+    b b b b c c
+    c4 r r
+    R2.
+    r8 c\fE c c c c
+    d d d d d d %275
+    e4 r r
+    c\fE d c
+    c r r
+    R2.*3 %281
+    r4 r8 c\fE d8. c16
+    c8 c c4. c8
+    c4 r r
+    R2.*5 %289
+    r8 c\fE c c c c %290
+    b b b b b b
+    c4 r r
+    R2.*14 %306
+    r8 e\fE e e e e
+    d d d d d d
+    c4 r r
+    R2.*13 %322
+    r8 e\fE e e d e16 f
+    e8 e e e e e
+    e4 r r %325
+    R2.*28 %353
+    r8 g,\fE g g f f
+    g4 r r %355
+    r8 g\fE g g f f
+    g4 r8 g g g
+    f4 g4. g8
+    a4 r r
+    R2.*3 %362
+    R2.\fermata \bar "||" %363 finis
+  }
+}

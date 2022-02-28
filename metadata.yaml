@@ -3,7 +3,7 @@ composer:
   first: Antonio
 title: Missa Divi Xaverii
 genre: mass
-scoring: S, A, T, B (solo), S, A, T, B (coro), clno (C), 2 vl, 2 vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), ob, clno (C/F), 2 vl, 2 vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -15,5 +15,7 @@ sources:
     license: public domain
     principal: true
 imslp:
+extra_abbreviations:
+  tr:
 parts:
   clno12: Clarino I, II in C/F

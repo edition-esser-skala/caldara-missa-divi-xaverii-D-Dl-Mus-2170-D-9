@@ -83,3 +83,47 @@ QuiTollisViolaI = {
     e\fermata \bar "||" %265 finis
   }
 }
+
+QuoniamViolaI = {
+  \relative c' {
+    \clef alto
+    \key f \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #266
+    a'4\pE r r
+    R2.*3
+    r8 a\fE a a a a %270
+    g g g g g g
+    f4 r r
+    R2.
+    r8 f\fE f f f f
+    f f f f f f %275
+    g4 r r
+    a\fE g4. g8
+    f4 r r
+    R2.*3 %281
+    r4 r8 c\fE g' g
+    f f g4. g8
+    a4 r r
+    R2.*5 %289
+    r8 f\fE f f f f %290
+    f f f f f f
+    f4 r r
+    R2.*14 %306
+    r8 g\fE g g g g
+    g g g g g g
+    g4 r r
+    R2.*13 %322
+    r8 a\fE a a a a
+    a a a a a a
+    a4 r r %325
+    R2.*28 %353
+    r8 c,\fE c c c c
+    c4 r r %355
+    r8 c\fE c c c c
+    c4 r8 c c c
+    c4 c4. c8
+    c4 r r
+    R2.*3 %362
+    R2.\fermata \bar "||" %363 finis
+  }
+}

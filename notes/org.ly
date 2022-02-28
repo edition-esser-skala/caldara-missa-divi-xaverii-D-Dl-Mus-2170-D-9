@@ -579,3 +579,161 @@ QuiTollisBassFigures = \figuremode {
   <5 _+>4 <6 4> <5 \t> <\t _+>
   <_+>1 %265 finis
 }
+
+QuoniamOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/4 \tempoQuoniam
+      \set Score.currentBarNumber = #266
+    \mvTr f4\p-\soloE r r
+    R2.*3
+    r8 f\f f f f f %270
+    g g g g c, c
+    f4 r r
+    R2.
+    r8 f\fE f f f f
+    d d d d d d %275
+    c4 r r
+    f\fE b, c
+    f, r r
+    R2.*3 %281
+    r4 r8 c''\f b c
+    a f c'4 c,
+    f2\p b,4
+    f' r b, %285
+    f'2 r4
+    f2 b,4
+    f'2 c4
+    f2 r4
+    r8 f\f f f f f %290
+    b, b b b b b
+    f'4 r r
+    R2.*6 %298
+    c2\p r4
+    d2 r4 %300
+    e2 r4
+    a2 r4
+    e2 r4
+    a f g
+    c,2 r4 %305
+    R2.
+    r8 c\f c c c c
+    g g g g g g
+    c4 r r
+    c2\p f,4 %310
+    c'2 r4
+    c f,2
+    c' r4
+    R2.*9 %322
+    r8 a\f a a d d
+    a a a a a a
+    a2 fis4 %325
+    g2.
+    c
+    f
+    f
+    c %330
+    b
+    a
+    g
+    f
+    c'2 f,4 %335
+    b c c,
+    f2 r4
+    R2.
+    r4 r f'
+    b,2 r4 %340
+    f2 r4
+    g2 r4
+    a4. g8 a b
+    c2.
+    f %345
+    e2 r4
+    f2 r4
+    e2 r4
+    f8 b, c4 c,
+    f r r %350
+    R2.*3
+    r8 c'\f c c f f
+    c4 r r %355
+    r8 c\fE c c f f
+    c4 r c
+    f c8 b c c,
+    f4 r r
+    R2.*3 %362
+    R2.\fermata \bar "||" %363 finis
+  }
+}
+
+QuoniamBassFigures = \figuremode {
+  r2.*5 %270
+  <7>2 q4
+  r2.*3
+  <7>4 <6>2 %275
+  <[7]>2.
+  r4 <6> <7>
+  r2.*4 %281
+  r2 \bo <[6]>4
+  \bc q2.
+  r
+  r %285
+  r
+  r
+  r
+  r
+  r %290
+  r
+  r
+  r2.*6 %298
+  r2.
+  <6!> %300
+  <6>
+  <5>
+  <6>
+  <5>4 <6 5> <[_!]>
+  r2. %305
+  r
+  r
+  <7 _!>
+  r
+  r %310
+  r
+  r
+  r
+  r2.*9 %322
+  r2 <5>4
+  r2.
+  r2 <6 5>4 %325
+  \bo <[5] 4> \bc <[7!] _!>2
+  <7- 4>4 <\t 3>2
+  <4>4 <3>2
+  r2.
+  <5>2 <6>4 %330
+  <7> <6>2
+  <7>4 <6>2
+  <7>4 <6>2
+  r2.
+  r %335
+  \bo <[7]>8 \bc <[6]> r2
+  r2.
+  r
+  r
+  r %340
+  r
+  \bo <[6]>
+  \bc q
+  <6 4>2 <7 3>4
+  r2. %345
+  <[6]>
+  r
+  q
+  r8 q r2
+  r2. %350
+  r2.*3
+  r2.
+  r %355
+  r
+  r
+  r4 <5 3> <\t \t>
+  r2.*5 %363 finis
+}

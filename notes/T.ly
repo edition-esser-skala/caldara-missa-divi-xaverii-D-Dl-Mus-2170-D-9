@@ -230,3 +230,125 @@ QuiTollisTenoreLyrics = \lyricmode {
   no --
   bis. %265 finis
 }
+
+QuoniamTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 3/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #266
+    R2.*18 %283
+    \mvTr c8\pE^\solo b c4. d8 %285
+    c([ b)] c4. d8
+    c([ b c d)] c([ b)]
+    a8.([ g16)] a4 b
+    c8([ b c d)] c([ b)]
+    a4. g8 a4
+    R2.*9 %298
+    e'8.[ d16] e4. f8
+    d8.[ c16] d4. e8 %300
+    c[ h c d c h]
+    c[ h c d c h]
+    c4. h8[( c d])
+    c2( h4)
+    c2 r4 %305
+    R2.*4
+    e8. e16 e8 e f f %310
+    e4 e r
+    e f8([ e)] f([ g)]
+    e d e4 r
+    r r e
+    f8[ e f d e f] %315
+    e[ d e c d e]
+    d[ c d h c d]
+    c8.[ d16 c8. d16 c8. d16]
+    h4 h4.\trill a16[ h]
+    c4 c8([ h)] c([ d)] %320
+    h a h4 c~
+    c8 d h4._(\trillE a16[ h)]
+    a2 r4
+    R2.*3 %326
+    g8. a16 b!8 b b b
+    b4 a r
+    f' f8([ e)] f([ g)]
+    e d e4 r %330
+    d2 c8[ b]
+    c2 b8[ a]
+    b2 a8[( g])
+    a4 a8([ g)] a([ b)]
+    g8. g16 g4 a~ %335
+    a8 g g2
+    f r4
+    R2.
+    r4 r c'
+    d2.\trill %340
+    c
+    b
+    a2 a4
+    a4. g8 g4
+    a8[ g f g a b] %345
+    c2.~
+    \once \tieDashed c~
+    c4. d8[ c b]
+    a8.([ g16)] g2
+    f4 r r
+    R2.*12 %362
+    R2.\fermata \bar "||" %363 finis
+  }
+}
+
+QuoniamTenoreLyrics = \lyricmode {
+  Quo -- ni -- am tu %284
+  so -- lus, tu %285
+  so -- lus
+  san -- ctus, tu
+  so -- lus
+  Do -- mi -- nus,
+
+  Je -- _ _ %299
+  _ _ _ %300
+  _
+  _
+  _ su __
+  Chri --
+  ste. %305
+
+  Quo -- ni -- am tu so -- lus %310
+  san -- ctus,
+  tu so -- lus
+  Do -- mi -- nus,
+  tu
+  so -- %315
+  _
+  _
+  _
+  _ _ _
+  _ lus al -- %320
+  tis -- si -- mus, Je --
+  su Chri --
+  ste.
+
+  Quo -- ni -- am tu so -- lus %327
+  san -- ctus,
+  tu so -- lus
+  Do -- mi -- nus, %330
+  tu so --
+  _ _
+  _ lus,
+  so -- lus al --
+  tis -- si -- mus, Je -- %335
+  su Chri --
+  ste,
+
+  tu
+  so -- %340
+  _
+  _
+  lus al --
+  tis -- si -- mus,
+  Je -- %345
+  _
+
+  _
+  su Chri --
+  ste. %350 finis
+}

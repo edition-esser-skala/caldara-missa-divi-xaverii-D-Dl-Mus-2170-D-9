@@ -220,7 +220,7 @@ QuiTollisBassoLyrics = \lyricmode {
   ti -- o -- %250
   nem __
   no --
-  
+
   stram.
 
   Qui se -- %257
@@ -232,4 +232,94 @@ QuiTollisBassoLyrics = \lyricmode {
   re __ no --
   _
   bis. %265 finis
+}
+
+QuoniamBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 3/4 \autoBeamOff \tempoQuoniam
+      \set Score.currentBarNumber = #266
+    R2.*26 %291
+    r4 r \mvTr f\pE^\solo
+    d'2.\trill
+    c
+    b %295
+    a\trill
+    g2 g4
+    c4. c,8 c4
+    R2.*11 %309
+    c8. c16 c8 c f f %310
+    c4 c r
+    c f f
+    c'8 c, c4 r
+    R2.*11 %324
+    a'8. h?16 c8 c c c %325
+    c4 h r
+    R2.*2
+    f4 f f
+    c'8 c, c4 c' %330
+    b2 a8[ g]
+    a2 g8[ f]
+    g2 g4
+    f f f
+    c8. c16 c4 f %335
+    b, c2
+    f r4
+    R2.
+    r4 r f
+    b,8[ a b c d e] %340
+    f[ e f g a f]
+    g[ f g a b g]
+    a[ g] f([ g)] a([ b)]
+    c4. c,8 c4
+    R2. %345
+    e8[ d e c d e]
+    f[ e f a g f]
+    e4 e4.\trill d16[ e]
+    f8 b, c2
+    f4 r r %350
+    R2.*12 %362
+    R2.\fermata \bar "||" %363 finis
+  }
+}
+
+QuoniamBassoLyrics = \lyricmode {
+  Tu %292
+  so --
+  _
+  _ %295
+  _
+  lus al --
+  tis -- si -- mus.
+
+  Quo -- ni -- am tu so -- lus %310
+  san -- ctus,
+  tu so -- lus
+  Do -- mi -- nus.
+
+  Quo -- ni -- am tu so -- lus %325
+  san -- ctus,
+
+  tu so -- lus
+  Do -- mi -- nus, tu %330
+  so -- _
+  _ _
+  _ lus,
+  so -- lus al --
+  tis -- si -- mus, Je -- %335
+  su Chri --
+  ste,
+
+  tu
+  so -- %340
+  _
+  _
+  _ lus al --
+  tis -- si -- mus,
+  %345
+  Je --
+  _
+  _ _ _
+  _ su Chri --
+  ste. %350 finis
 }
