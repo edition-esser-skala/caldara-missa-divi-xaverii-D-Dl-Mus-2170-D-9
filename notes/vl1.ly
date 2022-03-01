@@ -282,7 +282,7 @@ CumSanctoViolinoI = {
     a gis8 fis gis4 a r r
     R1.
     r2 r4 r g,\p g %400
-    a h c c g g
+    a h h^\critnote c g g
     a h g' e r r
     r d\f d e r r
     r d d e r r
@@ -335,5 +335,79 @@ OsannaViolinoI = {
     g4 r r8 g16 g a8 g
     g a g8. g16 g g, a h c e, f g %80
     c,4 r r2\fermata \bar "|." %81 finis
+  }
+}
+
+AgnusDeiOneViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnusDeiOne
+    r4 g''2\fE g4
+    a2 g
+    r4 g gis2
+    gis r8 a a a
+    a2~ a8 a a4~ %5
+    a2 gis
+    r a8 g f e
+    f e d cis d4 e
+    d4. cis?16 h a4. a8
+    gis4 a2 gis4 %10
+    a1\fermata \bar "||" %11 finis
+  }
+}
+
+AgnusDeiThreeViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnusDeiThree
+      \set Score.currentBarNumber = #76
+    g''4.\fE g8 g2
+    g r4 g
+    a1~
+    a4 g8 f g2
+    r4 g g g8 g %80
+    g4 g r g
+    f8 g a4. fis8 a4~
+    a gis8 fis gis2\fermata \bar "||" %83 finis
+  }
+}
+
+DonaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/4 \tempoDona
+      \set Score.currentBarNumber = #84
+    c'4\p g g a h h
+    c g g a h g' %85
+    e r r r2 r4
+    R1.*3
+    r4 g8\f fis g4 e fis8 g e fis %90
+    g4 d g~ g fis4.\trill e16( fis)
+    g4 d\p d e8[ d c d e8.^\critnote f16]
+    d4 r r r2 r4
+    r g,\pp g a8[ g f g a8. b16]
+    g4 c'8\f h! c4 a h8 c a h %95
+    c4 g c~ c h4.\trill a16 h
+    c4 e,,\p e f f f
+    e h' h c a a
+    gis h' h c8 d c d c d
+    h4 gis\f gis a8 h a h a h %100
+    gis4 h,\p h c8 d c d c d
+    h a h c h a h a h4 r
+    a16 c e c a c e c r4 a16 c e c a c e c r4
+    d,16 f a f d f a f r4 d16 h' g' h, d, h' g' h, r4
+    gis16 h e h gis h e h r4 a16 c e c a c e c r4 %105
+    r2 r4 a16 c e c a c e c r4
+    a a gis a a'\f a
+    a gis8 fis gis4 a r r
+    R1.
+    r2 r4 r g,\p g %110
+    a h h^\critnote c g g
+    a h g' e r r
+    r d\f d e r r
+    r d d e r r
+    R1.*2 %116
+    r2 r4 r8 e\f e e e e
+    d d d d d d e2 r4\fermata \bar "|." %118 FINIS
   }
 }

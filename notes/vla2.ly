@@ -325,3 +325,65 @@ OsannaViolaII = {
     c,4 r r2\fermata \bar "|." %81 finis
   }
 }
+
+AgnusDeiOneViolaII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoAgnusDeiOne
+    r4 c2\fE c4
+    c2 c
+    r4 c d2
+    d r8 e e e
+    dis e fis e dis fis a4 %5
+    r8 e e, e' e,2
+    R1*2
+    a'8 g f e f e d c!
+    h4 c d4. d8 %10
+    cis1\fermata \bar "||" %11 finis
+  }
+}
+
+AgnusDeiThreeViolaII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoAgnusDeiThree
+      \set Score.currentBarNumber = #76
+    c4.\fE c8 b2
+    b r4 b
+    a8 g f g a c f4~
+    f e8 d e2
+    r4 e e e8 e %80
+    e4^\critnote e r e~
+    e d8 e fis4. fis8
+    e4. e8 e2\fermata \bar "||" %83 finis
+  }
+}
+
+DonaViolaII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 6/4 \tempoDona
+      \set Score.currentBarNumber = #84
+    R1.*6 %89
+    r4 d8\fE c d4 e8 d c4 d %90
+    d h d e d4. d8
+    d2 r4 r2 r4
+    R1.*2
+    r4 e8\fE f e4 f f8 e d4 %95
+    c4. c8 d e f4 g d
+    c r r r2 r4
+    R1.*2
+    r4 h\fE h c8 d c d c d %100
+    h4 h r r2 r4
+    R1.*5 %106
+    r2 r4 r c\fE c
+    h h h a r r
+    R1.*4 %112
+    r4 d\fE h e r r
+    r d h e r c\pE
+    a b2 g4 a2 %115
+    f4 g2 e4. d8 e4
+    f d g c,8 c'\fE c c c c
+    a d d d d d c2 r4\fermata \bar "|." %118 FINIS
+  }
+}

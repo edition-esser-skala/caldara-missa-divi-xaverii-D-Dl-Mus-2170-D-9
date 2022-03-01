@@ -374,3 +374,141 @@ OsannaClarino = {
     e4 r r2\fermata \bar "|." %81 finis
   }
 }
+
+AgnusDeiOneClarino = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnusDeiOne
+    r4 g''2\fE g4
+    a2 g
+    r4 e d4. d8
+    d2 r8 e e e
+    fis2. fis4 %5
+    e4. e8 e2
+    R1*3
+    r4 e, e4. e8 %10
+    e1\fermata \bar "||" %11 finis
+  }
+}
+
+AgnusDeiTwoClarino = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAgnusDeiTwo
+      \set Score.currentBarNumber = #12
+    \mvTr c'8\fE-\solo d e f g f
+    e4. d8 c4
+    d8 c d e f g
+    e4. d8 e4 %15
+    a8 g a g f e
+    d c d e f d
+    g f g f e d
+    c4. d8 e f
+    g f16 e d4. c8 %20
+    c2\trill r4
+    R2.*2
+    g'8.[\pE f16 g8. f16] e8 d
+    c2 r4 %25
+    R2.*2
+    g'8 f g a g f
+    e4.\trill d8 e4
+    c'8[ h c d] c8. b16 %30
+    a8. g16 a4 r
+    R2.
+    g8\fE a g a g a
+    f g f g f g
+    e\pE f e f e f %35
+    d e d e d e16 f
+    g8 a g a g a
+    f g f g f g
+    e d e f e d
+    c4 r r %40
+    R2.*3
+    e8 d e f d e
+    f4.\trill e8 f4 %45
+    d8 c d e c d
+    e4.\trill d8 e4
+    c8.[ d16 c8. d16 c8. d16]
+    c2.\trill
+    d8.[ e16 d8. e16 d8. e16] %50
+    d2.\trill
+    e8.[ f16 e8. f16 e8. f16]
+    e2.\trill
+    e8.[ f16 e8. f16 e8. f16]
+    d8.[ e16 d8. e16 d8. e16] %55
+    c8.[ d16 c8. d16 c8. d16]
+    e4 r r
+    R2.
+    e8 d e f d e
+    f e f g f g %60
+    e d^\critnote e f d e
+    f e f g f g
+    e d e f e d
+    e4. f8 e d
+    c4 g4. g8 %65
+    e4 r r
+    g'8\fE a g a g a
+    f g f g f g
+    e f e f e f
+    d c d e f e %70
+    d4.\trill g8 f8. g16
+    e8. f16 d4. c8
+    c4 g4. g8
+    e2 r4
+    R2.\fermata \bar "||" %75 finis
+  }
+}
+
+AgnusDeiThreeClarino = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnusDeiThree
+      \set Score.currentBarNumber = #76
+    g''4.\fE g8 g2
+    g r4 g
+    a1~
+    a4 g8 f g2
+    R1*3 %82
+    R1\fermata \bar "||" %83 finis
+  }
+}
+
+DonaClarino = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/4 \tempoDona
+      \set Score.currentBarNumber = #84
+    R1.*2 %85
+    r4 e'8[\pE f g8. a16] g4 e8[ f g8. a16]
+    g8[ f e f g8. a16] f4 d8[ e f8. g16]
+    f4 d8[ e f8. g16] f8 e d e f g
+    e4 c8[ d e8. f16] e8[ d c d e8. f16]
+    d4 g8\f fis g4 e fis8 g e fis %90
+    g4 d g~ g fis4.\trill e16( fis)
+    g4 r r r2 r4
+    r g\pE g a8[ g f g a8. b16]
+    g4 r r r2 r4
+    r c,8\fE d e4 c d8 e c d %95
+    e4. e8 f g f4 d4.\trill c16 d
+    e2 r4 r2 r4
+    R1.*2
+    r4 e\fE e e e e %100
+    e e r r2 r4
+    r2 r4 e8\pE d e f e d
+    c2\trill r4 a'8[ g a b a8. g16]
+    f2 r4 g8 f g a g f
+    e2 r4 e4. d8[ e8. f16] %105
+    e4. d8[ e8. f16] e4. d8[ e8. f16]
+    e4 e4. d8 c4 r r
+    r2 r4 r e8\fE d c4
+    f8 e d4 g e c e
+    d g, g' e r r %110
+    R1.*2
+    r4 g8\fE f g f e4 r r
+    r g8 f g f e4 g8.\pE a16 g4
+    a f8. g16 f4 g e8. f16 e4 %115
+    f d8. e16 d4 e8 f e f g4
+    c, g4 .g8 e4 r r
+    R1.\fermata \bar "|." %118 FINIS
+  }
+}

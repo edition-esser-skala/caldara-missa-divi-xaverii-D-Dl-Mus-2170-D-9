@@ -580,3 +580,216 @@ OsannaAltoLyrics = \lyricmode {
   sis, in ex -- cel -- sis,
   in ex -- cel -- sis. %80 finis
 }
+
+AgnusDeiOneAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnusDeiOne
+    r4 \mvTr g'2\fE^\tuttiE g4
+    a2 g
+    r4 g gis2
+    gis r8 a a a
+    a1~ %%
+    a2 gis
+    r a8([ g)] f([ e)]
+    f([ e)] d([ cis)] d4 e
+    f8([ g] a4. g8) f([ g16 f)]
+    e1 %10
+    e\fermata \bar "||" %11 finis
+  }
+}
+
+AgnusDeiOneAltoLyrics = \lyricmode {
+  A -- gnus
+  De -- i,
+  qui tol --
+  lis pec -- ca -- ta
+  mun -- %5
+  di:
+  Mi -- se --
+  re -- re, __ mi -- se --
+  re -- re __
+  no -- %10
+  bis. %11 finis
+}
+
+AgnusDeiTwoAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoAgnusDeiTwo
+      \set Score.currentBarNumber = #12
+    R2.*9 %20
+    \mvTr c8([\pE^\soloE d e f)] g([ f)]
+    e4. d8 c4
+    d8[ c d e f g]
+    e4. d8 e4
+    a8[ g a g f e] %25
+    d4. d8[ e fis]
+    g a fis4.(\trill e16[ fis)]
+    g2 r4
+    g8([ f g a)] g([ f)]
+    e4.(\trill d8) e4 %30
+    f8([ e)] f([ g)] f e
+    d4.( c8) d4
+    R2.*2
+    g8[( a g a)] g([ a]) %35
+    f[ g f g f g]
+    e[ f e f e f]
+    d[ e d e d e]
+    h4. a8 h4
+    a'8[( g a h)] a([ g]) %40
+    f[ e f g f g]
+    e4. f8 e([ d)]
+    c([ d] h2)
+    a r4
+    a'8([ g a h)] g([ a)] %45
+    h4.( a8) h4
+    g8 f g([ a)] f([ g)]
+    a4.( g8) a4
+    f8.[( g16 f8. g16)] f8.([ g16])
+    f2.\trill %50
+    g8.[ a16 g8. a16 g8. a16]
+    g2.\trill
+    a8.[ b16 a8. b16 a8. b16]
+    g8.[ a16 g8. a16 g8. a16]
+    f8.[ g16 f8. g16 f8. g16] %55
+    e8.[ f16 e8. f16 e8. f16]
+    g4. a8 g([ f)]
+    e([ f] d2)
+    c r4
+    a'8[( g a b)] a([ b]) %60
+    g[ f g a f g]
+    a[ g a b a b]
+    g[ f g a g f]
+    g4. a8 g([ f])
+    e8.[( f16] d2) %65
+    c r4
+    R2.*8 %74
+    R2.\fermata \bar "||" %75 finis
+  }
+}
+
+AgnusDeiTwoAltoLyrics = \lyricmode {
+  A -- gnus %21
+  De -- i, qui
+  tol --
+  _ lis pec --
+  ca -- %25
+  _ _
+  _ ta mun --
+  di:
+  Mi -- se --
+  re -- re, %30
+  mi -- se -- re -- re
+  no -- bis,
+
+  mi -- se -- %35
+  re --
+  _
+  _
+  _ _ re,
+  mi -- se -- %40
+  re --
+  _ _ re
+  no --
+  bis,
+  mi -- se -- %45
+  re -- re,
+  mi -- se -- re -- re
+  no -- bis,
+  mi -- se --
+  re -- %50
+  _
+  _
+  _
+  _
+  _ %55
+  _
+  _ _ re
+  no --
+  bis,
+  mi -- se -- %60
+  re --
+  _
+  _
+  _ _ re
+  no -- %65
+  bis. %66 finis
+}
+
+AgnusDeiThreeAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnusDeiThree
+      \set Score.currentBarNumber = #76
+    \mvTr g'4.\fE^\tuttiE g8 g2
+    g r4 g
+    a1~
+    a4 g8[ f] g2
+    r4 g g g8 g %80
+    g4 g r g
+    f8([ g] a4.) fis8 a4~
+    a gis8[ fis] gis2\fermata \bar "||" %83 finis
+  }
+}
+
+AgnusDeiThreeAltoLyrics = \lyricmode {
+  A -- gnus De -- %76
+  i, qui
+  tol --
+  _ lis,
+  qui tol -- lis pec -- %80
+  ca -- ta, pec --
+  ca -- ta mun --
+  _ di: %83 finis
+}
+
+DonaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/4 \autoBeamOff \tempoDona
+      \set Score.currentBarNumber = #84
+    R1.*6 %89
+    r4 \mvTr g'8[(\fE^\tuttiE fis]) g4 e fis8[( g e fis]) %90
+    g4 d g~ g fis2\trill
+    g r4 r2 r4
+    R1.*2
+    r4 g8[( f]) g4 a8[( g]) f4( g) %95
+    g8[ f g e f g] a4 g2
+    g2^\critnote r4 r2 r4
+    R1.*2
+    r4 gis gis a8[( h a h a h] %100
+    gis4) gis r r2 r4
+    R1.*5 %106
+    r2 r4 r e e
+    f2( e4) e r r
+    R1.*4 %112
+    r4 g g g g r
+    g2 g4 g g r
+    R1.*2 %116
+    r2 r4 r g8[ f] g4
+    a2 g4 g2 r4\fermata \bar "|." %118 FINIS
+  }
+}
+
+DonaAltoLyrics = \lyricmode {
+  Do -- na no -- bis __ %90
+  pa -- _ _ _
+  cem,
+
+  do -- na no -- bis __ %95
+  pa -- _ _
+  cem,
+
+  pa -- cem, pa -- %100
+  cem,
+
+  pa -- cem, %107
+  pa -- cem,
+
+  pa -- cem, pa -- cem, %113
+  pa -- cem, pa -- cem,
+
+  pa -- _ %117
+  _ _ cem. %118 FINIS
+}

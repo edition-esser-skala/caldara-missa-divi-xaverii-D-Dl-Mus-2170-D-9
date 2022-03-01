@@ -589,3 +589,110 @@ OsannaTenoreLyrics = \lyricmode {
   sis, in ex -- cel -- sis,
   in ex -- cel -- sis. %80 finis
 }
+
+AgnusDeiOneTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnusDeiOne
+    r4 \mvTr c2\fE^\tuttiE c4
+    c2 c
+    r4 c d2
+    d r8 e e e
+    fis4 fis8 fis fis4. fis8 %5
+    e2 e
+    R1*2
+    a8([ g)] f([ e)] f([ e)] d([ c!)]
+    h4( c h2) %10
+    cis?1\fermata \bar "||" %11 finis
+  }
+}
+
+AgnusDeiOneTenoreLyrics = \lyricmode {
+  A -- gnus
+  De -- i,
+  qui tol --
+  lis pec -- ca -- ta
+  mun -- di, pec -- ca -- ta
+  mun -- di: %5
+
+  Mi -- se -- re -- re __ %9
+  no -- %10
+  bis. %11 finis
+}
+
+AgnusDeiThreeTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnusDeiThree
+      \set Score.currentBarNumber = #76
+    \mvTr c4.\fE^\tuttiE c8 b2
+    b r4 b
+    a8[ g f g] a[ c] f4~
+    f e8[ d] e2
+    r4 e e e8 e %80
+    e4 e r e~
+    e d8([ e] fis4.) fis8
+    e2 e\fermata \bar "||" %83 finis
+  }
+}
+
+AgnusDeiThreeTenoreLyrics = \lyricmode {
+  A -- gnus De -- %76
+  i, qui
+  tol -- _ _
+  _ lis,
+  qui tol -- lis pec -- %80
+  ca -- ta, pec --
+  ca -- ta
+  mun -- di: %83 finis
+}
+
+DonaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 6/4 \autoBeamOff \tempoDona
+      \set Score.currentBarNumber = #84
+    R1.*6 %89
+    r4 \mvTr d8[(\fE^\tuttiE c]) d4 e8[( d]) c4( d) %90
+    d h d e d2
+    d r4 r2 r4
+    R1.*2
+    r4^\critnote e8[( f]) e4 f f8[( e] d4) %95
+    \once \tieDashed c4.~ c8[ d e] f4 g d
+    c2 r4 r2 r4
+    R1.*2
+    r4 h h c8[( d c d c d] %100
+    h4) h r r2 r4
+    R1.*5 %106
+    r2 r4 r a8([ h)] c4
+    h2. c4 r r
+    R1.*4 %112
+    r4 h8([ c d h] e4) e r
+    h( h8[ c d h] e4) e r
+    R1.*2 %116
+    r2 r4 r c8[ d] e4
+    d4. c8 d4 e2 r4\fermata \bar "|." %118 FINIS
+  }
+}
+
+DonaTenoreLyrics = \lyricmode {
+  Do -- na no -- bis __ %90
+  pa -- _ _ _ _
+  cem,
+
+  do -- na no -- bis __ %95
+  pa -- _ _ _
+  cem,
+
+  pa -- cem, pa -- %100
+  cem,
+
+  pa -- cem, %107
+  pa -- cem,
+
+  pa -- cem, %113
+  pa -- cem,
+
+  pa -- _ %117
+  _ _ _ cem. %118 FINIS
+}

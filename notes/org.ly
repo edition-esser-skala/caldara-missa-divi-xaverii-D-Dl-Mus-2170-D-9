@@ -1018,3 +1018,268 @@ OsannaBassFigures = \figuremode {
   r <[6 5]> <4> <3> r2 %80
   r1 %81 finis
 }
+
+AgnusDeiOneOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnusDeiOne
+    r4 \mvTr c'2\fE-\tuttiE c4
+    f,2 c
+    r4 c' h2
+    h r8 a a a
+    dis,1 %5
+    e
+    a8 g! f e f e d cis
+    d4 e f8 e d cis
+    d e f g f cis d a
+    e'1 %10
+    a,\fermata \bar "||" %11 finis
+  }
+}
+
+AgnusDeiOneBassFigures = \figuremode {
+  r1
+  r
+  r2 <6\\>
+  r1
+  <7 [_+]> %5
+  <6 4>2 <5 _+>
+  r2 <5>4 q
+  r <6\\> <6>4. q8
+  <5>2 \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>4 <_!>8
+  <5 _+>4 <6 4> <5 \t> <\t _+> %10
+  <[_+]>1 %11 finis
+}
+
+AgnusDeiTwoOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoAgnusDeiTwo
+      \set Score.currentBarNumber = #12
+    \mvTr c2\fE-\soloE h4
+    c2 r4
+    h2 r4
+    c2 r4 %15
+    f2 r4
+    f2 r4
+    h,2 r4
+    c2 r4
+    e8 f g4 g, %20
+    c2\pE h4
+    c2.
+    h
+    c
+    c %25
+    d8 e d c h a
+    g c d4 d,
+    g2 r4
+    c2 r4
+    c2 r4 %30
+    f2 r4
+    g2 r4
+    e2\fE r4
+    d g g,
+    c2\pE r4 %35
+    d2 g4
+    c,2 r4
+    d2 r4
+    gis,2 r4
+    a2 r4 %40
+    d2 r4
+    c gis2
+    a4 e' e,
+    a'2 r4
+    f2 r4 %45
+    g2 r4
+    c2 r4
+    f,2 r4
+    f2 r4
+    d2 r4 %50
+    h2 r4
+    c2 r4
+    c2 r4
+    e2 r4
+    f2 r4 %55
+    c2 r4
+    c2 h4
+    c8 f g4 g,
+    c2 r4
+    f2 r4 %60
+    c2 r4
+    f2 r4
+    c2 r4
+    c2 r4
+    c8 f g4 g, %65
+    c'8\fE d c d c d
+    h c h c h c
+    a h a h a h
+    c2 r4
+    f,2 r4 %70
+    g a h
+    c8 f, g4 g,
+    c8 d e f g g,
+    c d e f g g,
+    c2.\fermata \bar "||" %75 finis
+  }
+}
+
+AgnusDeiTwoBassFigures = \figuremode {
+  r2 <6>4 %12
+  r2.
+  <6>
+  r %15
+  <5>
+  <6>
+  <[6]>
+  r
+  <[6]> %20
+  r2 <[6]>4
+  r2.
+  <[6]>
+  r
+  <6> %25
+  <_+>
+  r8 \bo <[6]> \bc <[_+]>2
+  r2.
+  r
+  r %30
+  r
+  r
+  <[6]>
+  r4 <[7]>2
+  r2. %35
+  r
+  r
+  r
+  <6>
+  r %40
+  r
+  r4 \bo <[6]>2
+  r4 \bc <[_+]>2
+  r2.
+  r %45
+  r
+  r
+  r
+  r
+  r %50
+  <6>
+  <5>
+  <6>
+  q
+  q %55
+  r
+  r2 <[6]>4
+  r2.
+  r
+  r %60
+  r
+  r
+  r
+  r
+  r %65
+  r
+  <6>
+  q
+  r
+  <6> %70
+  r
+  r
+  r
+  r
+  r %75 finis
+}
+
+AgnusDeiThreeOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnusDeiThree
+      \set Score.currentBarNumber = #76
+    \mvTr e1~\fE-\tutti
+    e2 r4 e
+    f1
+    c
+    r4 c' b2 %80
+    a r4 a
+    d,2 dis
+    e1\fermata \bar "||" %83 finis
+  }
+}
+
+AgnusDeiThreeBassFigures = \figuremode {
+  <6>2 <5-> %76
+  <6 5->2. <\t \t>4
+  <5 3>1
+  <6 4>4 <5 3>8 <4 2> <5 3>2
+  r2 <6 4 2+> %80
+  <7 _+>2. <\t \t>4
+  <9> <8> <7! _+>2
+  <5 4>4 \bassFigureExtendersOn <5 _+>8 <5 2+> <5 _+>2 \bassFigureExtendersOff %83 finis
+}
+
+DonaOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 6/4 \tempoDona
+      \set Score.currentBarNumber = #84
+    \mvTr c2\pE-\soloE r4 r2 r4 \noBreak
+    R1. %85
+    r4 c' c, r c' c,
+    r c' c, d g g,
+    r g' g, r g' g,
+    c f c r f c
+    g' \mvTr h8\fE-\tutti a g4 c8 h a4 d %90
+    h g h a d d,
+    g2 r4 r2 r4
+    r \mvTr c\p-\soloE c, f b f
+    c' r r r2 r4
+    r \mvTr e,8\fE-\tutti d c4 f8 e d4 g %95
+    e c e d g8 f g4
+    c,2 r4 r2 r4
+    R1.*2
+    r4 \mvTr e\fE-\tuttiE e a,2. %100
+    e'2 r4 r2 r4
+    R1.*5 %106
+    r2 r4 r \mvTr c8\fE-\tuttiE h a4
+    d h e a, r c~-\solo
+    c h2 c2.
+    f4 g g, c r r %110
+    R1.*2
+    r4 \mvTr g'8\fE-\tuttiE a h g c4 c, r
+    r g'8 a h g c4 c, r
+    R1.*2 %116
+    r2 r4 r \mvTr e8\fE-\tuttiE d c4
+    f d g c,2 r4\fermata \bar "|." %118 FINIS
+  }
+}
+
+DonaBassFigures = \figuremode {
+  r1. %84
+  r %85
+  r
+  r
+  r
+  r
+  r4 \bo <[6]>8 \bc <[6\\]> r2 <6\\>4 <_+> %90
+  <6>2. <7>4 <_+>2
+  r1.
+  r
+  r
+  r4 <6>8 <[6]> r2 <6> %95
+  <[6]>2. <7>
+  r1.
+  r1.*2
+  r4 <_+>2 r2. %100
+  <_+>1.
+  r1.*5 %106
+  r1 <6>2
+  r4 <6\\> <_+> r2.
+  <2>4 <6>2 r2.
+  <6>1. %110
+  r1.*2
+  r1.
+  r
+  r1.*2 %116
+  r1 <6>8 <[6]>4.
+  \bo <6 [5]>4 \bc <\t [\t]> r1 %118 FINIS
+}

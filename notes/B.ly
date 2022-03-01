@@ -480,3 +480,112 @@ OsannaBassoLyrics = \lyricmode {
   sis, in ex -- cel --
   sis. %80 finis
 }
+
+AgnusDeiOneBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnusDeiOne
+    r4 \mvTr c'2\fE^\tuttiE c4
+    f,2 c
+    r4 c' h2
+    h r8 a a a
+    dis,1 %5
+    e
+    a8([ g!)] f([ e)] f([ e)] d([ cis)]
+    d4 e f8([ e)] d([ cis)]
+    d([ e)] f([ g)] f([ cis?)] d([ a)]
+    e'1 %10
+    a,\fermata \bar "||" %11 finis
+  }
+}
+
+AgnusDeiOneBassoLyrics = \lyricmode {
+  A -- gnus
+  De -- i,
+  qui tol --
+  lis pec -- ca -- ta
+  mun -- %5
+  di:
+  Mi -- se -- re -- re, __
+  mi -- se -- re -- re, __
+  mi -- se -- re -- re __
+  no --
+  bis. %11 finis
+}
+
+AgnusDeiThreeBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \autoBeamOff \tempoAgnusDeiThree
+      \set Score.currentBarNumber = #76
+    \mvTr e4.\fE^\tuttiE e8 e2
+    e r4 e
+    f1
+    c
+    r4 c' b b8 b %80
+    a4 a, r a'
+    d,4. d8 dis2
+    e1\fermata \bar "||" %83 finis
+  }
+}
+
+AgnusDeiThreeBassoLyrics = \lyricmode {
+  A -- gnus De -- %76
+  i, qui
+  tol --
+  lis,
+  qui tol -- lis pec -- %80
+  ca -- ta, pec --
+  ca -- ta mun --
+  di: %83 finis
+}
+
+DonaBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 6/4 \autoBeamOff \tempoDona
+      \set Score.currentBarNumber = #84
+    R1.*6 %89
+    r4 \mvTr h'8[(\fE^\tuttiE a]) g4 c8[( h]) a4( d) %90
+    h g h a d d,
+    g2 r4 r2 r4
+    R1.*2
+    r4 e8[( d]) c4 f8[( e]) d4( g) %95
+    e c e d g8[ f] g4
+    c,2 r4 r2 r4
+    R1.*2
+    r4 e e a,2. %100
+    e'2 r4 r2 r4
+    R1.*5 %106
+    r2 r4 r c8[( h]) a4
+    d( h e) a, r r
+    R1.*4 %112
+    r4 g'8([ a h g] c4) c, r
+    g'( g8[ a h g] c4) c, r
+    R1.*2 %116
+    r2 r4 r e8[ d] c4
+    f d g c,2 r4\fermata \bar "|." %118 FINIS
+  }
+}
+
+DonaBassoLyrics = \lyricmode {
+  Do -- na no -- bis __ %90
+  pa -- _ _ _ _ _
+  cem,
+
+  do -- na no -- bis __ %95
+  pa -- _ _ _ _ _
+  cem,
+
+  pa -- cem, pa -- %100
+  cem,
+
+  pa -- cem, %107
+  pa -- cem,
+
+  pa -- cem, %113
+  pa -- cem,
+
+  pa -- _ %117
+  _ _ _ cem. %118 FINIS
+}
