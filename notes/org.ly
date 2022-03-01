@@ -824,3 +824,197 @@ CumSanctoBassFigures = \figuremode {
   r1 <6>8 <[6]>4.
   \bo <6 [5]>4 \bc <\t [\t]> r1 %408 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSanctus
+    \mvTr c2\fE-\tutti a
+    f' e
+    d4 d8 d c2
+    h e4 e8 e
+    ais,2 h~ \noBreak %5
+    h <e e,>\fermata \bar "||"
+    \tempoPleni r8 a c a e' e, a, c16-\solo d \noBreak
+    e8 c d e a, c16-\tutti d e8 e,
+    a a'-\solo e e, a a-\tuttiE h h
+    c e16 c g'8 g, c4 c'8. c16 %10
+    h4 a g r
+    r8 g e fis g g, r4
+    r8 g' e fis g g, r4
+    r8 c' a h c c, r4
+    r8 c'16 b a8 h? c f, g4 %15
+    c, r16 c c c c2\fermata \bar "||" %16 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r1
+  <7>4 <6> <_+>2
+  <4+ 3> <6>
+  <7 [5+] _+> <_!>
+  <7 [_+]> <5+ _+>4 <6 4> %5
+  <[5+ _+]>2 <_+>
+  r2 <_+>
+  q8 \bo <[6 \l]> \bc <[6 5]> <_+> r4 <[_+]>
+  r \bo <[4]>8 <_+> r4 \bc <6!>
+  r4 \bo <[4]>8 \bc <[3]> r2 %10
+  <6>4 <7>8 <6\\> r2
+  r4 <6>8 <\t> r2
+  r4 <6>8 <\t> r2
+  r4 <6>8 <\t> r2
+  r4 <6>8 <\t> r <[6 5]> <4> <3> %15
+  r1 %16 finis
+}
+
+BenedictusOrgano = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/8 \tempoBenedictus
+      \set Score.currentBarNumber = #17
+    \mvTr g4\fE-\soloE ^\tweak TextScript.X-offset #0 ^\markup \remark "Organo con Violoncello" g' fis
+    g4. h,8 c4
+    d r8 d4 r8
+    h4 r8 c4 r8 %20
+    c4 r8 d4 r8
+    g,4 r8 g4 r8
+    a4 r8 h4 r8
+    c h a g d' d,
+    g4 g'\pE fis %25
+    g g,8 h c4
+    d h8 c4 r8
+    c4 r8 d4 r8
+    d4 r8 e4 r8
+    c4 r8 g'4 r8 %30
+    c,4 r8 g'4 r8
+    a4 g8 fis16 g a8 a,
+    d4 r8 h4 r8
+    c!4 r8 g4 r8
+    e'4 r8 fis4 r8 %35
+    g4 r8 g,4 r8
+    a4 r8 h4 r8
+    c4 r8 a4 r8
+    h4 r8 c4 r8
+    c4 r8 d4 r8 %40
+    d4 r8 e4 r8
+    f16 d e8 e, a4 a'8~
+    a gis4 a c,8
+    d e e, a4 r8
+    h4 r8 c4 c'8~ %45
+    c h4 c h8
+    a e fis! g4 r8
+    e fis4 g r8
+    c,4 r8 c4 r8
+    d4 r8 g,4 r8 %50
+    g4 r8 c4 r8
+    c4 r8 c4 r8
+    d4 r8 g, d' d,
+    g4 r8 c4 r8
+    c4 r8 c4 r8 %55
+    d4 r8 g, d' d,
+    g4\fE g' fis
+    g r8 h, c4
+    d r8 d4 r8
+    h4 r8 c4 r8 %60
+    d4 r8 g,4 r8
+    g4 r8 a4 r8
+    h4 r8 c4 r8
+    g d' d, g4 r8
+    g4 r8 r4 r8\fermata \bar "||" %65 finis
+  }
+}
+
+BenedictusBassFigures = \figuremode {
+  r4. <2>8 <[6]>4 %17
+  r4. <[6]>
+  r2.
+  <[6]>4. <5> %20
+  <6> <7>
+  r2.
+  <6!>4. <5!>
+  r4 <5>16 <6\\> r4.
+  r <2>8 <[6]>4 %25
+  r4. <[6]>
+  r4 <6>8 r4.
+  <6> <5>
+  <6>2.
+  r %30
+  r
+  \bo <[_+]>4 <\t>8 <6>16 q \bc <[_+]>4
+  r4. <[6]>
+  r2.
+  <7>8 <6>4 <5>4. %35
+  <4>4 <3>8 r4.
+  <6!> <5!>
+  r <7>8 <6!>4
+  <6 5!>4. <4!>4 <3>8
+  <6>4. <5 [_!]> %40
+  <6 [_!]> \bo <[_+]>
+  r8 <_+>4 r4.
+  <2>8 \bc <[6]>4 r <6>8
+  <6 _!> <_+>4 r4.
+  \bc <[6!]>2. %45
+  \bo <[4!] 2>8 <6>4 r <6>8
+  r \bc <[6]>4 r4.
+  <6>8 q <5> r4.
+  <5> <6>
+  r2. %50
+  r
+  r4. <6>
+  r2.
+  r
+  r %55
+  r
+  r4. <2>8 <[6]>4
+  r4. <[6]>
+  r2.
+  <[6]> %60
+  <[7]>
+  r4. <[6!]>
+  <5!>2.
+  r2.
+  r %65 finis
+}
+
+OsannaOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #66
+    r4 \mvTr c'\fE-\tutti g c,8 e16-\solo f
+    g8 e f g c, e16-\tutti f g8 g,
+    c c'-\solo g g, c \clef "treble_8" c'[ d d]
+    e e, h'4 e,8 \clef bass gis[-\tutti a a]
+    f d e4 a, a' %70
+    e8 e, a c16-\solo d e8 c d e
+    a, c16-\tutti d e8 e, a a' e e,
+    a \clef "treble_8" a'[ h h] c e g4
+    c,8 \clef bass c,[-\tutti c' c] h h a4
+    g r r8 g e fis %75
+    g g, r4 r8 g' e fis
+    g g, r4 r8 c' a h
+    c c, r4 r8 c' a h
+    c c, r4 r8 c'16 b a8 h
+    c f, g4 c, r16 c c c %80
+    c4 r r2\fermata \bar "|." %81 finis
+  }
+}
+
+OsannaBassFigures = \figuremode {
+  r1 %66
+  r8 \bo <[6 \l]> <6 5>2 <4>8 \bc <[3 \l]>
+  r4 \bo <[4]>8 \bc <[3]>4 <6>8 <5 _+>4
+  <9+>8 <8> \bo <[5+] 4> \bc <[\t] _+> r <6> \bo <[9]> \bc <[8]>
+  <6>4 <4>8 <_+> r2 %70
+  <_+> <_+>8 \bo <[6 \l]> <6 5> \bc <[_+ \l]>
+  r4 <_+>2 \bo <[4]>8 \bc <[_+]>
+  r4 <6!>4. <[6]>8 <4> <3>
+  r2 <6>4 <7>8 <6\\>
+  r2. <6>8 <\t> %75
+  r2. <6>8 <\t>
+  r2. <6>8 <\t>
+  r2. <6>8 <\t>
+  r2. <6>8 <\t>
+  r <[6 5]> <4> <3> r2 %80
+  r1 %81 finis
+}

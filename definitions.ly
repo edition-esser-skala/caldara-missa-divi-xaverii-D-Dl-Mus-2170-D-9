@@ -24,6 +24,11 @@ tempoQuoniam = \tempoMarkup "Allegro"
 tempoCumSancto = \tempoMarkup "Grave"
   tempoInGloria = \tempoMarkup "Andante"
 
+tempoSanctus = \tempoMarkup "Grave"
+  tempoPleni = \tempoMarkup "Allegro"
+tempoBenedictus = \tempoMarkup "Andante"
+tempoOsanna = \tempoMarkup "Allegro"
+
 
 \include "notes/ob.ly"
 \include "notes/clno.ly"

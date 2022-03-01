@@ -222,3 +222,106 @@ CumSanctoViolaII = {
     a d d d d d c2 r4\fermata \bar "|." %408 finis
   }
 }
+
+SanctusViolaII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoSanctus
+    c4.\fE^\critnote c8 c4 a~
+    a f' h,2
+    h4 h8 h c4 e
+    dis h h r8 e
+    cis4 r8 cis h4 r8 h \noBreak %5
+    h4 r8 fis' h,2\fermata \bar "||"
+    \tempoPleni r2 r4 r8 a
+    h a h8. h16 c4 r
+    r8 a h h a4 r
+    r8 e' d d e4 c8 c %10
+    d d e d16 c d4 r
+    r8 d e d d4 r
+    r8 d16 d e8 d d4 r
+    r8 c c d c4 r
+    r8 c c d c4 c8 h %15
+    c16 g' a h c e, f g c,2\fermata \bar "||" %16 finis
+  }
+}
+
+BenedictusViolaII = {
+  \relative c' {
+    \clef tenor
+    \key g \major \time 6/8 \tempoBenedictus
+      \set Score.currentBarNumber = #17
+    g16\fE a g a h8 a16 h a h c8
+    h16 c h c d8 d e16 d c h
+    a g fis e d8 r16 d' d d d d
+    d, d' d d d d e, c' c c c c %20
+    e, c' c c c c fis, c' c c c c
+    h g' g g g g h, g' g g g g
+    a, f' f f f f h, f' f f f f
+    e8. d16 e16. fis32 g16. h,32 a8. g16
+    g4 r8 r4 r8 %25
+    R2.
+    d'8.\pE c16 d8 e4.~
+    e16 d e fis d e \once \tieDashed fis4.~
+    fis16 e fis g e fis g4.
+    e16 d e c d e d c d h c d %30
+    e d e c d e d8 g16 fis e d
+    e8 a, d16. e32 fis16. e32 e8.(\trill d32 e)
+    d16 d d d d d d, d' d d d d
+    e, c'! c c c c <h d, h>4 r8
+    R2. %35
+    r16 g' g g g g g, g' g g g g
+    a, f' f f f f h, f' f f f f
+    e4 r8 r4 r8
+    r4 r8 c16 h c d c h
+    a8. gis16 a8 f'16 e f g f e %40
+    d c d e d c h8 e,16 fis gis a
+    a16. h32 gis8.(\trillE fis32 gis) a16 h a h a c
+    h c h c h d c4 r8
+    r4 r8 c16 d c d c e
+    d e d e d f e8. d16 c8 %45
+    R2.
+    r4 r8 r16 d d d d d
+    e, c' fis, a fis a g8. a16 h8
+    e,4 r8 a16. g32 a16 h32 a g16 a32 g
+    fis4. d'16. c32 d16 e32 d c16 d32 c %50
+    h4 r8 g'16. f32 g16 a32 g f16 g32 f
+    e16. d32 e16 f32 e d16 e32 d c16. h32 c16 d32 c h16 c32 h
+    a8. d16 e16. fis32 g16. a32 fis8.(\trill e32 fis)
+    g16 fis e d c h e d c h a g
+    c h a g fis e e' d c h a g %55
+    d'8 d,16 d e16. fis32 g16. a32 fis8.([\trill e32 fis)]
+    g16\fE a g a h8 a16 h a h c8
+    h16 c h c d8 d e16 d c h
+    a g fis e d8 r16 d' d d d d
+    d, d' d d d d e, c' c c c c %60
+    fis, c' c c c c h g' g g g g
+    g, g' g g g g a, f'^\critnote f f f f
+    h, f' f f f f e8. d16 e16. fis32
+    g16. h,32 a8. g16 g h d h g h
+    g d g d h d g,4.\fermata \bar "||" %65 finis
+  }
+}
+
+OsannaViolaII = {
+  \relative c' {
+    \clef tenor
+    \key c \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #66
+    r2 r4 r8 c\fE
+    d c d d c4 r
+    r8 c d d c4 r
+    R1*2 %70
+    r4 r8 a h a h8. h16
+    a4 r r8 a h h
+    a4 r r2
+    c4 r8 c d d e d16 c
+    d4 r r8 d e d %75
+    d4 r r8 d16 d e8 d
+    d4 r r8 c c d
+    c4 r r8 c16 c c8 d
+    c4 r r8 c16 c c8 d
+    c4 c8 h c16 g' a h c e, f g %80
+    c,4 r r2\fermata \bar "|." %81 finis
+  }
+}

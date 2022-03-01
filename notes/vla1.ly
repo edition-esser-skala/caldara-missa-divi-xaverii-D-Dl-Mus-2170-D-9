@@ -168,3 +168,49 @@ CumSanctoViolaI = {
     a a a a g g g2 r4\fermata \bar "|." %408 finis
   }
 }
+
+SanctusViolaI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoSanctus
+    e2.\fE e4
+    c a h2
+    d4 d8 d e4 a8 e
+    fis?4. fis8 g4 r8 g
+    g e cis e dis4 h \noBreak %5
+    h'4. h8 h2\fermata \bar "||"
+    \tempoPleni r2 r4 r8 e, \noBreak
+    e e e8. e16 e4 r
+    r8 e e8. e16 e4 r
+    r8 g g g g4 g8 g %10
+    g g a a, h4 r
+    r8 g' c a h4 r
+    r8 g16 g c8 a h4 r
+    r8 e, c g' g4 r
+    r8 g c, g' g f f8. f16 %15
+    e g a h c e, f g c,2\fermata \bar "||" %16 finis
+  }
+}
+
+OsannaViolaI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #66
+    r2 r4 r8 g'\fE
+    g g g8. g16 g4 r
+    r8 g g8. g16 g4 r
+    R1*2 %70
+    r4 r8 e e e e8. e16
+    e4 r r8 e e8. e16
+    e4 r r2
+    e4 r8 e g g a a,
+    h4 r r8 g' c a %75
+    h4 r r8 g16 g c8 a
+    h4 r r8 e, c g'
+    g4 r r8 e16 e c8 g'
+    g4 r r8 e16^\critnote e c8 g'
+    g f f8. f16 e g a h c e, f g %80
+    c,4 r r2\fermata \bar "|." %81 finis
+  }
+}

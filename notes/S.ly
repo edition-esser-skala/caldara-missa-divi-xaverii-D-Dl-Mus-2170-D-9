@@ -389,3 +389,94 @@ CumSanctoSopranoLyrics = \lyricmode {
   _ _ _ men, a -- _
   _ _ men. %408 finis
 }
+
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr c'2\fE^\tuttiE c
+    a gis
+    gis4 gis8 gis a4 a
+    a a8 a g4 g
+    g2 fis4 g \noBreak %5
+    fis4. fis8 gis2\fermata \bar "||"
+    \tempoPleni r8 c c c h4 c \noBreak
+    r2 r8 c h4
+    c r r8 c d d
+    c c16 c c8([ h)] c4 e8. e16 %10
+    d4 c h r
+    r8 h c4 h r
+    r8 h16 h c4 h r
+    r8 e f4 e r
+    r8 e16 e f8 f e d d4 %15
+    c r r2\fermata \bar "||" %16 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus,
+  san -- ctus
+  Do -- mi -- nus De -- us,
+  Do -- mi -- nus De -- us
+  Sa -- _ _ %5
+  _ ba -- oth.
+  Ple -- ni sunt coe -- li
+  et ter --
+  ra, ple -- ni sunt
+  coe -- li et ter -- ra glo -- ri -- %10
+  a tu -- a.
+  O -- san -- na
+  in ex -- cel -- sis,
+  o -- san -- na
+  in ex -- cel -- sis, in ex -- cel -- %15
+  sis. %16 finis
+}
+
+OsannaSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #66
+    r4 \mvTr e'\fE^\tuttiE d e
+    r2 e8 e d4
+    e r r8 e fis fis
+    fis e e([ dis)] e e c c
+    d d h4 c c %70
+    h c r2
+    c8 c h4 c r
+    r8 c d d c c c([ h)]
+    c4 e8 e d4( c)
+    h r r8 h c4 %75
+    h r r8 h16 h c4
+    h r r8 e f4
+    e r r8 e16 e f4
+    e r r8 e16 e f8 f
+    e d d4 c r %80
+    R1\fermata \bar "|." %81 finis
+  }
+}
+
+OsannaSopranoLyrics = \lyricmode {
+  O -- san -- na %66
+  in ex -- cel --
+  sis, o -- san -- na
+  in ex -- cel -- sis, o -- san -- na
+  in ex -- cel -- sis, o -- %70
+  san -- na
+  in ex -- cel -- sis,
+  o -- san -- na in ex -- cel --
+  sis, in ex -- cel --
+  sis, o -- san -- %75
+  na in ex -- cel --
+  sis, o -- san --
+  na in ex -- cel --
+  sis, in ex -- cel -- sis,
+  in ex -- cel -- sis. %80 finis
+}
+
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Do -- na no -- bis pa -- cem.

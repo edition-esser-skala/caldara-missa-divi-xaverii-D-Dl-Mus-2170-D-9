@@ -328,3 +328,49 @@ CumSanctoClarino = {
     R1.\fermata \bar "|." %408 finis
   }
 }
+
+SanctusClarino = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    g''4.\fE g8 a4 e~
+    e d8. d16 e2
+    gis4 gis8 gis a2~
+    a g~
+    g fis4 g \noBreak %5
+    fis4. fis8 e2\fermata \bar "||"
+    \tempoPleni r8 e, e e e e16 e e e e e \noBreak
+    e8 e' e16 f e d c4 r
+    r8 e e8. d16 c4 r
+    r8 g' g d16 g e4 r8 g %10
+    g g e fis g d e16 g fis a
+    g4 r r8 d e d16 c
+    d4 r r8 d e d16 c
+    d8 e f f e g a g16 f
+    g4 f8 f e f16 e d8. d16 %15
+    c4 r16 e, e e e2\fermata \bar "||" %16 finis
+  }
+}
+
+OsannaClarino = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #66
+    r2 r4 r8 g''\fE
+    g16 a g a g a g f e4 r8 g
+    g16 a g a g a g f e4 r
+    R1*2 %70
+    r4 r8 e e16 f e f e f e d
+    c4 r8 e e16 f e f e f e d
+    c4 r r2
+    r8 g' g4 r8 g g fis
+    g d e16 g fis a g4 r %75
+    r8 d e d16 c d4 r
+    r8 d e d16 c d8 e f8. f16
+    e8 g a g16 f g4 r
+    r8 g a g16 f g8 g f f
+    e f16 e d8 g e4 r16 e, e e %80
+    e4 r r2\fermata \bar "|." %81 finis
+  }
+}

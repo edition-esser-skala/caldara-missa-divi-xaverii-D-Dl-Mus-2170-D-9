@@ -291,3 +291,49 @@ CumSanctoViolinoI = {
     d d d d d d e2 r4\fermata \bar "|." %408 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    r8 c'\fE e g c, e a e
+    a4. a8 gis h gis e
+    h f' d h e, e' c a
+    dis, fis' dis h g g' e h
+    cis g' e cis dis4 e %5
+    dis4. dis8 e2\fermata \bar "||"
+    \tempoPleni r2 r4 r16 c c c \noBreak
+    h h c c h h h h a8 a' r4
+    r16 a, a a a a gis gis a8 a' r4
+    r16 c, c c d d d d c8 e g4~ %10
+    g8 g g fis g4 r
+    r8 h c c h4 r
+    r8 h16 h c8 c h4 r
+    r8 g a g g4 r
+    r8 g16 g a8 g g a g8. g16 %15
+    g16 g, a h c e, f g c,2\fermata \bar "||" %16 finis
+  }
+}
+
+OsannaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #66
+    r2 r4 r16 e'\fE e e
+    d d e e d d d d e4 r
+    r16 e e e d d d d e4 r
+    R1*2 %70
+    r4 r16 a, a a gis gis a a a a gis gis
+    a4 r r16 c c c h h h h
+    c4 r r2
+    r16 g' g g g g g g g g g g g g fis fis
+    g4 r r8 h c c %75
+    h4 r r8 h16 h c8 c
+    h4 r r8 g a g
+    g4 r r8 g16 g a8 g
+    g4 r r8 g16 g a8 g
+    g a g8. g16 g g, a h c e, f g %80
+    c,4 r r2\fermata \bar "|." %81 finis
+  }
+}

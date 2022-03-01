@@ -224,3 +224,49 @@ CumSanctoViolinoII = {
     c c c c h h c2 r4\fermata \bar "|." %408 finis
   }
 }
+
+SanctusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    r8 g''\fE e c e c a c16 h
+    a8 h16 c d8. d16 e4 r8 gis,
+    h h, r gis'' a a, r e'
+    a a, r fis' e e, r e
+    e' e, r g' fis4 g \noBreak %5
+    fis4. fis8 gis2\fermata \bar "||"
+    \tempoPleni r2 r4 r16 a, a a \noBreak
+    gis gis a a a a gis gis a4 r
+    r16 c, c c h h h h c4 r
+    r16 c' c c c c h h c4 e8 e %10
+    d16 e d e c d c d h8 g r4
+    r8 g' g a g4 r
+    r8 g16 g g8 a g4 r
+    r8 e f f e4 r
+    r8 e16 e f8 f e d d8. d16 %15
+    e g, a h c e, f g c,2\fermata \bar "||" %16 finis
+  }
+}
+
+OsannaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoOsanna
+      \set Score.currentBarNumber = #66
+    r2 r4 r16 c'\fE c c
+    h h c c c c h h c4 r
+    r16 c c c c c h h c4 r
+    R1*2 %70
+    r4 r16 c, c c h h c c h h h h
+    c4 r r16 a' a a a a gis gis
+    a4 r r2
+    r16 e' e e e e e e d d d d c c c c
+    <h d>4 r r8 g' g a %75
+    g4 r r8 g16^\critnote g g8 a
+    g4 r r8 e f f
+    e4 r r8 e16 e f8 f
+    e4 r r8 e16 e f8 f
+    e d d8. d16 c g a h c e, f g %80
+    c,4 r r2\fermata \bar "|." %81 finis
+  }
+}

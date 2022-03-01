@@ -496,3 +496,87 @@ CumSanctoAltoLyrics = \lyricmode {
   a -- _ %407
   _ _ men. %408 finis
 }
+
+SanctusAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvTr g'2\fE^\tuttiE a4 e~
+    e d e2
+    f4 f8 f e4 e
+    dis dis e2~
+    e dis4 e \noBreak %5
+    dis4. dis8 e2\fermata \bar "||"
+    \tempoPleni r8 a a a gis4 a \noBreak
+    r2 r8 a gis4
+    a r r8 a g g
+    g g16 g g4 g g8. g16 %10
+    g4 g8([ fis)] g4 r
+    r8 g g([ a)] g4 r
+    r8 g16 g g8([ a)] g4 r
+    r8 g a([ g)] g4 r
+    r8 g16 g a8 g g a g4 %15
+    g r r2\fermata \bar "||" %16 finis
+  }
+}
+
+SanctusAltoLyrics = \lyricmode {
+  San -- ctus, san --
+  _ ctus
+  Do -- mi -- nus De -- us
+  Sa -- ba -- oth, __
+  De -- us %5
+  Sa -- ba -- oth.
+  Ple -- ni sunt coe -- li
+  et ter --
+  ra, ple -- ni sunt
+  coe -- li et ter -- ra glo -- ri -- %10
+  a tu -- a.
+  O -- san -- na
+  in ex -- cel -- sis,
+  o -- san -- na
+  in ex -- cel -- sis, in ex -- cel -- %15
+  sis. %16 finis
+}
+
+OsannaAlto = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoOsanna
+      \set Score.currentBarNumber = #66
+    r4 \mvTr g'\fE^\tuttiE g g
+    r2 g8 g g4
+    g r8 g g a a a
+    g4( fis) e8 h' h a
+    a a a([ gis)] a4 a %70
+    gis a r2
+    a8 a gis4 a r
+    r8 a g g g g g4
+    g g8 g g4.( fis8)
+    g4 r r8 g g([ a)] %75
+    g4 r r8 g16 g g8([ a)]
+    g4 r r8 g a([ g)]
+    g4 r r8 g16 g a8([ g)]
+    g4 r r8 g16 g a8 g
+    g a g4 g r %80
+    R1\fermata \bar "|." %81 finis
+  }
+}
+
+OsannaAltoLyrics = \lyricmode {
+  O -- san -- na %66
+  in ex -- cel --
+  sis, o -- san -- na in ex --
+  cel -- sis, o -- san -- na
+  in ex -- cel -- sis, o -- %70
+  san -- na
+  in ex -- cel -- sis,
+  o -- san -- na in ex -- cel --
+  sis, in ex -- cel --
+  sis, o -- san -- %75
+  na in ex -- cel --
+  sis, o -- san --
+  na in ex -- cel --
+  sis, in ex -- cel -- sis,
+  in ex -- cel -- sis. %80 finis
+}
