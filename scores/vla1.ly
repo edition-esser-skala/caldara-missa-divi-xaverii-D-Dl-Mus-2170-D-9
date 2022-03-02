@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vla 1")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -15,46 +15,39 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \GloriaViolinoI
+          \set Staff.instrumentName = "Viola I"
+          \GloriaViolaI
         }
-      >>
-    }
-  }
-  \bookpart {
-    \subsection "Domine Deus, Rex cœlestis"
-    \addTocEntry
-    \paper { systems-per-page = #7 }
-    \score {
-      <<
-        \new Staff { \DomineDeusViolinoI }
       >>
     }
   }
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
+    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \QuiTollisViolinoI }
+        \new Staff { \QuiTollisViolaI }
       >>
     }
   }
   \bookpart {
     \subsection "Quoniam"
     \addTocEntry
+    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \QuoniamViolinoI }
+        \new Staff { \QuoniamViolaI }
       >>
     }
   }
   \bookpart {
     \subsection "Cum Sancto Spiritu"
     \addTocEntry
+    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \CumSanctoViolinoI }
+        \new Staff { \CumSanctoViolaI }
       >>
     }
   }
@@ -64,7 +57,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
+        \new Staff { \SanctusViolaI }
       >>
     }
   }
@@ -74,7 +67,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \OsannaViolinoI }
+        \new Staff { \OsannaViolaI }
       >>
     }
   }
@@ -84,26 +77,27 @@
     \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \AgnusDeiOneViolinoI }
+        \new Staff { \AgnusDeiOneViolaI }
       >>
     }
   }
   \bookpart {
     \subsection "Agnus Dei (3)"
     \addTocEntry
-    \paper { systems-per-page = #1 ragged-last = ##f }
+    \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \AgnusDeiThreeViolinoI }
+        \new Staff { \AgnusDeiThreeViolaI }
       >>
     }
   }
   \bookpart {
     \subsection "Dona nobis pacem"
     \addTocEntry
+    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \DonaViolinoI }
+        \new Staff { \DonaViolaI }
       >>
     }
   }

@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -15,8 +15,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \GloriaViolinoI
+          \set Staff.instrumentName = "Violino II"
+          \GloriaViolinoII
         }
       >>
     }
@@ -36,7 +36,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuiTollisViolinoI }
+        \new Staff { \QuiTollisViolinoII }
       >>
     }
   }
@@ -45,16 +45,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamViolinoI }
+        \new Staff { \QuoniamViolinoII }
       >>
     }
   }
   \bookpart {
     \subsection "Cum Sancto Spiritu"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \CumSanctoViolinoI }
+        \new Staff { \CumSanctoViolinoII }
       >>
     }
   }
@@ -64,7 +65,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
+        \new Staff { \SanctusViolinoII }
       >>
     }
   }
@@ -74,7 +75,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \OsannaViolinoI }
+        \new Staff { \OsannaViolinoII }
       >>
     }
   }
@@ -84,7 +85,7 @@
     \paper { systems-per-page = #2 }
     \score {
       <<
-        \new Staff { \AgnusDeiOneViolinoI }
+        \new Staff { \AgnusDeiOneViolinoII }
       >>
     }
   }
@@ -94,7 +95,7 @@
     \paper { systems-per-page = #1 ragged-last = ##f }
     \score {
       <<
-        \new Staff { \AgnusDeiThreeViolinoI }
+        \new Staff { \AgnusDeiThreeViolinoII }
       >>
     }
   }
@@ -103,7 +104,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DonaViolinoI }
+        \new Staff { \DonaViolinoII }
       >>
     }
   }

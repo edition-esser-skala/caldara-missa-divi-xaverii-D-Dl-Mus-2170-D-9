@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "clno")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -9,34 +9,34 @@
     \section "1" "Gloria"
     \addTocEntry
     \paper {
-      systems-per-page = #6
+      systems-per-page = #7
       indent = 2\cm
     }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \GloriaViolinoI
+          \set Staff.instrumentName = \transposedName "Clarino" "C" ""
+          \GloriaClarino
         }
       >>
     }
   }
   \bookpart {
-    \subsection "Domine Deus, Rex cœlestis"
+    \subsection "Domine Fili"
     \addTocEntry
-    \paper { systems-per-page = #7 }
     \score {
       <<
-        \new Staff { \DomineDeusViolinoI }
+        \new Staff { \DomineFiliClarino }
       >>
     }
   }
   \bookpart {
     \subsection "Qui tollis"
     \addTocEntry
+    \paper { systems-per-page = #3 }
     \score {
       <<
-        \new Staff { \QuiTollisViolinoI }
+        \new Staff { \QuiTollisClarino }
       >>
     }
   }
@@ -45,16 +45,35 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \QuoniamViolinoI }
+        \new Staff {
+          \set Staff.instrumentName = \transposedNameShort "clno" "F" ""
+          \QuoniamClarino
+        }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Quoniam"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff {
+          \set Staff.instrumentName = \transposedNameShort "tr" "F" ""
+          \QuoniamTromba
+        }
       >>
     }
   }
   \bookpart {
     \subsection "Cum Sancto Spiritu"
     \addTocEntry
+    \paper { page-count = #1 }
     \score {
       <<
-        \new Staff { \CumSanctoViolinoI }
+        \new Staff {
+          \set Staff.instrumentName = \transposedNameShort "clno" "C" ""
+          \CumSanctoClarino
+        }
       >>
     }
   }
@@ -64,7 +83,7 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
+        \new Staff { \SanctusClarino }
       >>
     }
   }
@@ -74,17 +93,26 @@
     \paper { systems-per-page = #4 }
     \score {
       <<
-        \new Staff { \OsannaViolinoI }
+        \new Staff { \OsannaClarino }
       >>
     }
   }
   \bookpart {
     \section "3" "Agnus Dei (1)"
     \addTocEntry
-    \paper { systems-per-page = #2 }
+    \paper { systems-per-page = #1 ragged-last = ##f }
     \score {
       <<
-        \new Staff { \AgnusDeiOneViolinoI }
+        \new Staff { \AgnusDeiOneClarino }
+      >>
+    }
+  }
+  \bookpart {
+    \subsection "Agnus Dei (2)"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \AgnusDeiTwoClarino }
       >>
     }
   }
@@ -94,7 +122,7 @@
     \paper { systems-per-page = #1 ragged-last = ##f }
     \score {
       <<
-        \new Staff { \AgnusDeiThreeViolinoI }
+        \new Staff { \AgnusDeiThreeClarino }
       >>
     }
   }
@@ -103,7 +131,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \DonaViolinoI }
+        \new Staff { \DonaClarino }
       >>
     }
   }
